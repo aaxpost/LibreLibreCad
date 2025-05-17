@@ -33,7 +33,7 @@ $EXTMAX
  10
 594
  20
-841
+420
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-Написи на штампі
+0
   9
 $CELTYPE
   6
@@ -825,7 +825,7 @@ $PLIMMAX
  10
 594
  20
-841
+420
   9
 $UNITMODE
  70
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-353.7543851736718
+490.0216784320618
  22
-93.79078799993606
+250.4660660330383
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-318.4808931650002
+740.9621120144051
  41
 1.669654289372599
  42
@@ -2417,7 +2417,7 @@ Standard
  70
     0
  40
-2.5
+1
  41
 2.5
  42
@@ -2441,7 +2441,7 @@ Standard
 141
 0.09
 142
-0
+2.5
 143
 25.4
 144
@@ -2469,7 +2469,7 @@ Standard
  77
     0
  78
-    8
+    1
  79
     0
 170
@@ -2507,7 +2507,7 @@ Standard
 277
     2
 278
-   44
+    0
 279
     0
 280
@@ -2529,7 +2529,7 @@ Standard
 289
     3
 340
-STANDARD
+standard
 341
 
 371
@@ -2634,6 +2634,42 @@ AcDbSymbolTableRecord
 AcDbBlockTableRecord
   2
 left_field002
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+57
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+штамп
+ 70
+    0
+280
+    1
+281
+    0
+  0
+BLOCK_RECORD
+  5
+5A
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+штамп-0
  70
     0
 280
@@ -2751,7 +2787,7 @@ left_field001
   0
 LINE
   5
-57
+5D
 100
 AcDbEntity
   8
@@ -2775,7 +2811,7 @@ AcDbLine
   0
 LINE
   5
-58
+5E
 100
 AcDbEntity
   8
@@ -2799,7 +2835,7 @@ AcDbLine
   0
 LINE
   5
-59
+5F
 100
 AcDbEntity
   8
@@ -2823,7 +2859,7 @@ AcDbLine
   0
 LINE
   5
-5A
+60
 100
 AcDbEntity
   8
@@ -2847,7 +2883,7 @@ AcDbLine
   0
 LINE
   5
-5B
+61
 100
 AcDbEntity
   8
@@ -2871,7 +2907,7 @@ AcDbLine
   0
 LINE
   5
-5C
+62
 100
 AcDbEntity
   8
@@ -2895,7 +2931,7 @@ AcDbLine
   0
 LINE
   5
-5D
+63
 100
 AcDbEntity
   8
@@ -2919,7 +2955,7 @@ AcDbLine
   0
 LINE
   5
-5E
+64
 100
 AcDbEntity
   8
@@ -2943,7 +2979,7 @@ AcDbLine
   0
 LINE
   5
-5F
+65
 100
 AcDbEntity
   8
@@ -3003,7 +3039,7 @@ high_field001
   0
 LINE
   5
-60
+66
 100
 AcDbEntity
   8
@@ -3027,7 +3063,7 @@ AcDbLine
   0
 LINE
   5
-61
+67
 100
 AcDbEntity
   8
@@ -3051,7 +3087,7 @@ AcDbLine
   0
 LINE
   5
-62
+68
 100
 AcDbEntity
   8
@@ -3075,7 +3111,7 @@ AcDbLine
   0
 LINE
   5
-63
+69
 100
 AcDbEntity
   8
@@ -3099,7 +3135,7 @@ AcDbLine
   0
 LINE
   5
-64
+6A
 100
 AcDbEntity
   8
@@ -3123,7 +3159,7 @@ AcDbLine
   0
 LINE
   5
-65
+6B
 100
 AcDbEntity
   8
@@ -3183,7 +3219,7 @@ left_field002
   0
 LINE
   5
-66
+6C
 100
 AcDbEntity
   8
@@ -3207,7 +3243,7 @@ AcDbLine
   0
 LINE
   5
-67
+6D
 100
 AcDbEntity
   8
@@ -3231,7 +3267,7 @@ AcDbLine
   0
 LINE
   5
-68
+6E
 100
 AcDbEntity
   8
@@ -3255,7 +3291,7 @@ AcDbLine
   0
 LINE
   5
-69
+6F
 100
 AcDbEntity
   8
@@ -3279,7 +3315,7 @@ AcDbLine
   0
 LINE
   5
-6A
+70
 100
 AcDbEntity
   8
@@ -3303,7 +3339,7 @@ AcDbLine
   0
 LINE
   5
-6B
+71
 100
 AcDbEntity
   8
@@ -3327,7 +3363,7 @@ AcDbLine
   0
 LINE
   5
-6C
+72
 100
 AcDbEntity
   8
@@ -3361,187 +3397,29 @@ AcDbEntity
 100
 AcDbBlockEnd
   0
-ENDSEC
-  0
-SECTION
+BLOCK
+  5
+58
+330
+57
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
   2
-ENTITIES
-  0
-LINE
-  5
-6D
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-0
- 20
-0
- 11
-594
- 21
-0
-  0
-LINE
-  5
-6E
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-594
- 20
-0
- 11
-594
- 21
-841
-  0
-LINE
-  5
-6F
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-594
- 20
-841
- 11
-0
- 21
-841
-  0
-LINE
-  5
-70
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-0
- 20
-841
- 11
-0
- 21
-0
-  0
-INSERT
-  5
-71
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-left_field001
- 10
-20
- 20
-5
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
+штамп
  70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-72
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-left_field002
+    0
  10
-20
+0
  20
-5
- 30
 0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
+  3
+штамп
+  1
+
   0
 LINE
   5
@@ -4197,126 +4075,6 @@ LINE
 100
 AcDbEntity
   8
-0
-  6
-ByLayer
- 62
-  256
-370
-   70
-100
-AcDbLine
- 10
-20
- 20
-5
- 11
-589
- 21
-5
-  0
-LINE
-  5
-8F
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   70
-100
-AcDbLine
- 10
-589
- 20
-5
- 11
-589
- 21
-836
-  0
-LINE
-  5
-90
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   70
-100
-AcDbLine
- 10
-589
- 20
-836
- 11
-20
- 21
-836
-  0
-LINE
-  5
-91
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   70
-100
-AcDbLine
- 10
-20
- 20
-836
- 11
-20
- 21
-5
-  0
-LINE
-  5
-92
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   70
-100
-AcDbLine
- 10
-90
- 20
-822
- 11
-20
- 21
-822
-  0
-LINE
-  5
-93
-100
-AcDbEntity
-  8
 Написи на штампі
   6
 ByLayer
@@ -4337,7 +4095,7 @@ AcDbLine
   0
 LINE
   5
-94
+8F
 100
 AcDbEntity
   8
@@ -4361,7 +4119,7 @@ AcDbLine
   0
 LINE
   5
-95
+90
 100
 AcDbEntity
   8
@@ -4385,7 +4143,7 @@ AcDbLine
   0
 ARC
   5
-96
+91
 100
 AcDbEntity
   8
@@ -4413,7 +4171,7 @@ AcDbArc
   0
 LINE
   5
-97
+92
 100
 AcDbEntity
   8
@@ -4437,7 +4195,7 @@ AcDbLine
   0
 ARC
   5
-98
+93
 100
 AcDbEntity
   8
@@ -4465,7 +4223,7 @@ AcDbArc
   0
 LINE
   5
-99
+94
 100
 AcDbEntity
   8
@@ -4489,7 +4247,7 @@ AcDbLine
   0
 LINE
   5
-9A
+95
 100
 AcDbEntity
   8
@@ -4513,7 +4271,7 @@ AcDbLine
   0
 ARC
   5
-9B
+96
 100
 AcDbEntity
   8
@@ -4541,7 +4299,7 @@ AcDbArc
   0
 LINE
   5
-9C
+97
 100
 AcDbEntity
   8
@@ -4565,7 +4323,7 @@ AcDbLine
   0
 ARC
   5
-9D
+98
 100
 AcDbEntity
   8
@@ -4593,7 +4351,7 @@ AcDbArc
   0
 LINE
   5
-9E
+99
 100
 AcDbEntity
   8
@@ -4617,7 +4375,7 @@ AcDbLine
   0
 ARC
   5
-9F
+9A
 100
 AcDbEntity
   8
@@ -4645,7 +4403,7 @@ AcDbArc
   0
 LINE
   5
-A0
+9B
 100
 AcDbEntity
   8
@@ -4669,7 +4427,7 @@ AcDbLine
   0
 ARC
   5
-A1
+9C
 100
 AcDbEntity
   8
@@ -4697,7 +4455,7 @@ AcDbArc
   0
 LINE
   5
-A2
+9D
 100
 AcDbEntity
   8
@@ -4721,7 +4479,7 @@ AcDbLine
   0
 ARC
   5
-A3
+9E
 100
 AcDbEntity
   8
@@ -4749,7 +4507,7 @@ AcDbArc
   0
 LINE
   5
-A4
+9F
 100
 AcDbEntity
   8
@@ -4773,7 +4531,7 @@ AcDbLine
   0
 ARC
   5
-A5
+A0
 100
 AcDbEntity
   8
@@ -4801,7 +4559,7 @@ AcDbArc
   0
 LINE
   5
-A6
+A1
 100
 AcDbEntity
   8
@@ -4825,7 +4583,7 @@ AcDbLine
   0
 LINE
   5
-A7
+A2
 100
 AcDbEntity
   8
@@ -4849,7 +4607,7 @@ AcDbLine
   0
 LINE
   5
-A8
+A3
 100
 AcDbEntity
   8
@@ -4873,7 +4631,7 @@ AcDbLine
   0
 LINE
   5
-A9
+A4
 100
 AcDbEntity
   8
@@ -4897,7 +4655,7 @@ AcDbLine
   0
 LINE
   5
-AA
+A5
 100
 AcDbEntity
   8
@@ -4921,7 +4679,7 @@ AcDbLine
   0
 ARC
   5
-AB
+A6
 100
 AcDbEntity
   8
@@ -4949,7 +4707,7 @@ AcDbArc
   0
 LINE
   5
-AC
+A7
 100
 AcDbEntity
   8
@@ -4973,7 +4731,7 @@ AcDbLine
   0
 LINE
   5
-AD
+A8
 100
 AcDbEntity
   8
@@ -4997,7 +4755,7 @@ AcDbLine
   0
 LINE
   5
-AE
+A9
 100
 AcDbEntity
   8
@@ -5021,7 +4779,7 @@ AcDbLine
   0
 ARC
   5
-AF
+AA
 100
 AcDbEntity
   8
@@ -5049,7 +4807,7 @@ AcDbArc
   0
 LINE
   5
-B0
+AB
 100
 AcDbEntity
   8
@@ -5073,7 +4831,7 @@ AcDbLine
   0
 LINE
   5
-B1
+AC
 100
 AcDbEntity
   8
@@ -5097,7 +4855,7 @@ AcDbLine
   0
 LINE
   5
-B2
+AD
 100
 AcDbEntity
   8
@@ -5121,7 +4879,7 @@ AcDbLine
   0
 LINE
   5
-B3
+AE
 100
 AcDbEntity
   8
@@ -5145,7 +4903,7 @@ AcDbLine
   0
 LINE
   5
-B4
+AF
 100
 AcDbEntity
   8
@@ -5169,7 +4927,7 @@ AcDbLine
   0
 LINE
   5
-B5
+B0
 100
 AcDbEntity
   8
@@ -5193,7 +4951,7 @@ AcDbLine
   0
 ARC
   5
-B6
+B1
 100
 AcDbEntity
   8
@@ -5221,7 +4979,7 @@ AcDbArc
   0
 LINE
   5
-B7
+B2
 100
 AcDbEntity
   8
@@ -5245,7 +5003,7 @@ AcDbLine
   0
 ARC
   5
-B8
+B3
 100
 AcDbEntity
   8
@@ -5273,7 +5031,7 @@ AcDbArc
   0
 LINE
   5
-B9
+B4
 100
 AcDbEntity
   8
@@ -5297,7 +5055,7 @@ AcDbLine
   0
 LINE
   5
-BA
+B5
 100
 AcDbEntity
   8
@@ -5321,7 +5079,7 @@ AcDbLine
   0
 LINE
   5
-BB
+B6
 100
 AcDbEntity
   8
@@ -5345,7 +5103,7 @@ AcDbLine
   0
 LINE
   5
-BC
+B7
 100
 AcDbEntity
   8
@@ -5369,7 +5127,7 @@ AcDbLine
   0
 LINE
   5
-BD
+B8
 100
 AcDbEntity
   8
@@ -5393,7 +5151,7 @@ AcDbLine
   0
 LINE
   5
-BE
+B9
 100
 AcDbEntity
   8
@@ -5417,7 +5175,7 @@ AcDbLine
   0
 ARC
   5
-BF
+BA
 100
 AcDbEntity
   8
@@ -5445,7 +5203,7 @@ AcDbArc
   0
 LINE
   5
-C0
+BB
 100
 AcDbEntity
   8
@@ -5469,7 +5227,7 @@ AcDbLine
   0
 ARC
   5
-C1
+BC
 100
 AcDbEntity
   8
@@ -5497,7 +5255,7 @@ AcDbArc
   0
 LINE
   5
-C2
+BD
 100
 AcDbEntity
   8
@@ -5521,7 +5279,7 @@ AcDbLine
   0
 ARC
   5
-C3
+BE
 100
 AcDbEntity
   8
@@ -5549,7 +5307,7 @@ AcDbArc
   0
 ARC
   5
-C4
+BF
 100
 AcDbEntity
   8
@@ -5577,7 +5335,7 @@ AcDbArc
   0
 LINE
   5
-C5
+C0
 100
 AcDbEntity
   8
@@ -5601,7 +5359,7 @@ AcDbLine
   0
 ARC
   5
-C6
+C1
 100
 AcDbEntity
   8
@@ -5629,7 +5387,7 @@ AcDbArc
   0
 LINE
   5
-C7
+C2
 100
 AcDbEntity
   8
@@ -5653,127 +5411,127 @@ AcDbLine
   0
 LINE
   5
+C3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+406.6012991386078
+ 20
+36.72021579061255
+ 11
+406.6012991386078
+ 21
+38.05354912394588
+  0
+LINE
+  5
+C4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+406.6012991386078
+ 20
+38.05354912394588
+ 11
+407.1568546941634
+ 21
+37.27577134616811
+  0
+LINE
+  5
+C5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+407.1568546941634
+ 20
+37.27577134616811
+ 11
+407.7124102497189
+ 21
+38.05354912394588
+  0
+LINE
+  5
+C6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+407.7124102497189
+ 20
+38.05354912394588
+ 11
+407.7124102497189
+ 21
+36.72021579061255
+  0
+LINE
+  5
+C7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+408.3790769163856
+ 20
+36.72021579061255
+ 11
+408.3790769163856
+ 21
+38.05354912394588
+  0
+LINE
+  5
 C8
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-406.6012991386078
- 20
-36.72021579061255
- 11
-406.6012991386078
- 21
-38.05354912394588
-  0
-LINE
-  5
-C9
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-406.6012991386078
- 20
-38.05354912394588
- 11
-407.1568546941634
- 21
-37.27577134616811
-  0
-LINE
-  5
-CA
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-407.1568546941634
- 20
-37.27577134616811
- 11
-407.7124102497189
- 21
-38.05354912394588
-  0
-LINE
-  5
-CB
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-407.7124102497189
- 20
-38.05354912394588
- 11
-407.7124102497189
- 21
-36.72021579061255
-  0
-LINE
-  5
-CC
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-408.3790769163856
- 20
-36.72021579061255
- 11
-408.3790769163856
- 21
-38.05354912394588
-  0
-LINE
-  5
-CD
 100
 AcDbEntity
   8
@@ -5797,7 +5555,7 @@ AcDbLine
   0
 LINE
   5
-CE
+C9
 100
 AcDbEntity
   8
@@ -5821,7 +5579,7 @@ AcDbLine
   0
 LINE
   5
-CF
+CA
 100
 AcDbEntity
   8
@@ -5845,7 +5603,7 @@ AcDbLine
   0
 LINE
   5
-D0
+CB
 100
 AcDbEntity
   8
@@ -5869,7 +5627,7 @@ AcDbLine
   0
 LINE
   5
-D1
+CC
 100
 AcDbEntity
   8
@@ -5893,7 +5651,7 @@ AcDbLine
   0
 LINE
   5
-D2
+CD
 100
 AcDbEntity
   8
@@ -5917,7 +5675,7 @@ AcDbLine
   0
 LINE
   5
-D3
+CE
 100
 AcDbEntity
   8
@@ -5941,7 +5699,7 @@ AcDbLine
   0
 LINE
   5
-D4
+CF
 100
 AcDbEntity
   8
@@ -5965,7 +5723,7 @@ AcDbLine
   0
 LINE
   5
-D5
+D0
 100
 AcDbEntity
   8
@@ -5989,7 +5747,7 @@ AcDbLine
   0
 ARC
   5
-D6
+D1
 100
 AcDbEntity
   8
@@ -6017,7 +5775,7 @@ AcDbArc
   0
 LINE
   5
-D7
+D2
 100
 AcDbEntity
   8
@@ -6041,7 +5799,7 @@ AcDbLine
   0
 ARC
   5
-D8
+D3
 100
 AcDbEntity
   8
@@ -6069,7 +5827,7 @@ AcDbArc
   0
 LINE
   5
-D9
+D4
 100
 AcDbEntity
   8
@@ -6093,7 +5851,7 @@ AcDbLine
   0
 LINE
   5
-DA
+D5
 100
 AcDbEntity
   8
@@ -6117,7 +5875,7 @@ AcDbLine
   0
 LINE
   5
-DB
+D6
 100
 AcDbEntity
   8
@@ -6141,7 +5899,7 @@ AcDbLine
   0
 LINE
   5
-DC
+D7
 100
 AcDbEntity
   8
@@ -6165,7 +5923,7 @@ AcDbLine
   0
 LINE
   5
-DD
+D8
 100
 AcDbEntity
   8
@@ -6189,7 +5947,7 @@ AcDbLine
   0
 LINE
   5
-DE
+D9
 100
 AcDbEntity
   8
@@ -6213,7 +5971,7 @@ AcDbLine
   0
 LINE
   5
-DF
+DA
 100
 AcDbEntity
   8
@@ -6237,7 +5995,7 @@ AcDbLine
   0
 LINE
   5
-E0
+DB
 100
 AcDbEntity
   8
@@ -6261,7 +6019,7 @@ AcDbLine
   0
 LINE
   5
-E1
+DC
 100
 AcDbEntity
   8
@@ -6285,7 +6043,7 @@ AcDbLine
   0
 LINE
   5
-E2
+DD
 100
 AcDbEntity
   8
@@ -6309,7 +6067,7 @@ AcDbLine
   0
 LINE
   5
-E3
+DE
 100
 AcDbEntity
   8
@@ -6333,7 +6091,7 @@ AcDbLine
   0
 ARC
   5
-E4
+DF
 100
 AcDbEntity
   8
@@ -6361,7 +6119,7 @@ AcDbArc
   0
 LINE
   5
-E5
+E0
 100
 AcDbEntity
   8
@@ -6385,7 +6143,7 @@ AcDbLine
   0
 ARC
   5
-E6
+E1
 100
 AcDbEntity
   8
@@ -6413,7 +6171,7 @@ AcDbArc
   0
 LINE
   5
-E7
+E2
 100
 AcDbEntity
   8
@@ -6437,7 +6195,7 @@ AcDbLine
   0
 ARC
   5
-E8
+E3
 100
 AcDbEntity
   8
@@ -6465,7 +6223,7 @@ AcDbArc
   0
 LINE
   5
-E9
+E4
 100
 AcDbEntity
   8
@@ -6489,7 +6247,7 @@ AcDbLine
   0
 ARC
   5
-EA
+E5
 100
 AcDbEntity
   8
@@ -6517,7 +6275,7 @@ AcDbArc
   0
 LINE
   5
-EB
+E6
 100
 AcDbEntity
   8
@@ -6541,7 +6299,7 @@ AcDbLine
   0
 LINE
   5
-EC
+E7
 100
 AcDbEntity
   8
@@ -6565,7 +6323,7 @@ AcDbLine
   0
 LINE
   5
-ED
+E8
 100
 AcDbEntity
   8
@@ -6589,7 +6347,7 @@ AcDbLine
   0
 ARC
   5
-EE
+E9
 100
 AcDbEntity
   8
@@ -6617,7 +6375,7 @@ AcDbArc
   0
 LINE
   5
-EF
+EA
 100
 AcDbEntity
   8
@@ -6641,7 +6399,7 @@ AcDbLine
   0
 LINE
   5
-F0
+EB
 100
 AcDbEntity
   8
@@ -6665,7 +6423,7 @@ AcDbLine
   0
 ARC
   5
-F1
+EC
 100
 AcDbEntity
   8
@@ -6693,7 +6451,7 @@ AcDbArc
   0
 LINE
   5
-F2
+ED
 100
 AcDbEntity
   8
@@ -6717,7 +6475,7 @@ AcDbLine
   0
 LINE
   5
-F3
+EE
 100
 AcDbEntity
   8
@@ -6741,7 +6499,7 @@ AcDbLine
   0
 LINE
   5
-F4
+EF
 100
 AcDbEntity
   8
@@ -6765,7 +6523,7 @@ AcDbLine
   0
 ARC
   5
-F5
+F0
 100
 AcDbEntity
   8
@@ -6793,7 +6551,7 @@ AcDbArc
   0
 LINE
   5
-F6
+F1
 100
 AcDbEntity
   8
@@ -6817,7 +6575,7 @@ AcDbLine
   0
 ARC
   5
-F7
+F2
 100
 AcDbEntity
   8
@@ -6845,7 +6603,7 @@ AcDbArc
   0
 LINE
   5
-F8
+F3
 100
 AcDbEntity
   8
@@ -6869,7 +6627,7 @@ AcDbLine
   0
 LINE
   5
-F9
+F4
 100
 AcDbEntity
   8
@@ -6893,7 +6651,7 @@ AcDbLine
   0
 LINE
   5
-FA
+F5
 100
 AcDbEntity
   8
@@ -6917,7 +6675,7 @@ AcDbLine
   0
 LINE
   5
-FB
+F6
 100
 AcDbEntity
   8
@@ -6941,7 +6699,7 @@ AcDbLine
   0
 LINE
   5
-FC
+F7
 100
 AcDbEntity
   8
@@ -6965,7 +6723,7 @@ AcDbLine
   0
 LINE
   5
-FD
+F8
 100
 AcDbEntity
   8
@@ -6989,7 +6747,7 @@ AcDbLine
   0
 LINE
   5
-FE
+F9
 100
 AcDbEntity
   8
@@ -7013,7 +6771,7 @@ AcDbLine
   0
 ARC
   5
-FF
+FA
 100
 AcDbEntity
   8
@@ -7041,7 +6799,7 @@ AcDbArc
   0
 LINE
   5
-100
+FB
 100
 AcDbEntity
   8
@@ -7065,7 +6823,7 @@ AcDbLine
   0
 LINE
   5
-101
+FC
 100
 AcDbEntity
   8
@@ -7089,7 +6847,7 @@ AcDbLine
   0
 ARC
   5
-102
+FD
 100
 AcDbEntity
   8
@@ -7117,7 +6875,7 @@ AcDbArc
   0
 LINE
   5
-103
+FE
 100
 AcDbEntity
   8
@@ -7141,7 +6899,7 @@ AcDbLine
   0
 ARC
   5
-104
+FF
 100
 AcDbEntity
   8
@@ -7169,7 +6927,7 @@ AcDbArc
   0
 LINE
   5
-105
+100
 100
 AcDbEntity
   8
@@ -7193,7 +6951,7 @@ AcDbLine
   0
 ARC
   5
-106
+101
 100
 AcDbEntity
   8
@@ -7221,7 +6979,7 @@ AcDbArc
   0
 LINE
   5
-107
+102
 100
 AcDbEntity
   8
@@ -7245,7 +7003,7 @@ AcDbLine
   0
 LINE
   5
-108
+103
 100
 AcDbEntity
   8
@@ -7269,7 +7027,7 @@ AcDbLine
   0
 LINE
   5
-109
+104
 100
 AcDbEntity
   8
@@ -7293,7 +7051,7 @@ AcDbLine
   0
 ARC
   5
-10A
+105
 100
 AcDbEntity
   8
@@ -7321,7 +7079,7 @@ AcDbArc
   0
 LINE
   5
-10B
+106
 100
 AcDbEntity
   8
@@ -7345,7 +7103,7 @@ AcDbLine
   0
 ARC
   5
-10C
+107
 100
 AcDbEntity
   8
@@ -7373,7 +7131,7 @@ AcDbArc
   0
 LINE
   5
-10D
+108
 100
 AcDbEntity
   8
@@ -7397,7 +7155,7 @@ AcDbLine
   0
 LINE
   5
-10E
+109
 100
 AcDbEntity
   8
@@ -7421,7 +7179,7 @@ AcDbLine
   0
 ARC
   5
-10F
+10A
 100
 AcDbEntity
   8
@@ -7449,7 +7207,7 @@ AcDbArc
   0
 LINE
   5
-110
+10B
 100
 AcDbEntity
   8
@@ -7473,7 +7231,7 @@ AcDbLine
   0
 ARC
   5
-111
+10C
 100
 AcDbEntity
   8
@@ -7501,7 +7259,7 @@ AcDbArc
   0
 LINE
   5
-112
+10D
 100
 AcDbEntity
   8
@@ -7525,7 +7283,7 @@ AcDbLine
   0
 ARC
   5
-113
+10E
 100
 AcDbEntity
   8
@@ -7553,7 +7311,7 @@ AcDbArc
   0
 LINE
   5
-114
+10F
 100
 AcDbEntity
   8
@@ -7577,7 +7335,7 @@ AcDbLine
   0
 LINE
   5
-115
+110
 100
 AcDbEntity
   8
@@ -7601,7 +7359,7 @@ AcDbLine
   0
 ARC
   5
-116
+111
 100
 AcDbEntity
   8
@@ -7629,7 +7387,7 @@ AcDbArc
   0
 LINE
   5
-117
+112
 100
 AcDbEntity
   8
@@ -7653,7 +7411,7 @@ AcDbLine
   0
 ARC
   5
-118
+113
 100
 AcDbEntity
   8
@@ -7681,7 +7439,7 @@ AcDbArc
   0
 LINE
   5
-119
+114
 100
 AcDbEntity
   8
@@ -7705,7 +7463,7 @@ AcDbLine
   0
 ARC
   5
-11A
+115
 100
 AcDbEntity
   8
@@ -7733,7 +7491,7 @@ AcDbArc
   0
 LINE
   5
-11B
+116
 100
 AcDbEntity
   8
@@ -7757,7 +7515,7 @@ AcDbLine
   0
 ARC
   5
-11C
+117
 100
 AcDbEntity
   8
@@ -7785,7 +7543,7 @@ AcDbArc
   0
 LINE
   5
-11D
+118
 100
 AcDbEntity
   8
@@ -7809,7 +7567,7 @@ AcDbLine
   0
 ARC
   5
-11E
+119
 100
 AcDbEntity
   8
@@ -7837,7 +7595,7 @@ AcDbArc
   0
 LINE
   5
-11F
+11A
 100
 AcDbEntity
   8
@@ -7861,7 +7619,7 @@ AcDbLine
   0
 ARC
   5
-120
+11B
 100
 AcDbEntity
   8
@@ -7889,7 +7647,7 @@ AcDbArc
   0
 ARC
   5
-121
+11C
 100
 AcDbEntity
   8
@@ -7917,7 +7675,7 @@ AcDbArc
   0
 LINE
   5
-122
+11D
 100
 AcDbEntity
   8
@@ -7941,7 +7699,7 @@ AcDbLine
   0
 ARC
   5
-123
+11E
 100
 AcDbEntity
   8
@@ -7969,7 +7727,7 @@ AcDbArc
   0
 LINE
   5
-124
+11F
 100
 AcDbEntity
   8
@@ -7993,7 +7751,7 @@ AcDbLine
   0
 LINE
   5
-125
+120
 100
 AcDbEntity
   8
@@ -8017,7 +7775,7 @@ AcDbLine
   0
 LINE
   5
-126
+121
 100
 AcDbEntity
   8
@@ -8041,7 +7799,7 @@ AcDbLine
   0
 ARC
   5
-127
+122
 100
 AcDbEntity
   8
@@ -8069,7 +7827,7 @@ AcDbArc
   0
 LINE
   5
-128
+123
 100
 AcDbEntity
   8
@@ -8093,7 +7851,7 @@ AcDbLine
   0
 ARC
   5
-129
+124
 100
 AcDbEntity
   8
@@ -8121,7 +7879,7 @@ AcDbArc
   0
 LINE
   5
-12A
+125
 100
 AcDbEntity
   8
@@ -8145,7 +7903,7 @@ AcDbLine
   0
 ARC
   5
-12B
+126
 100
 AcDbEntity
   8
@@ -8173,7 +7931,7 @@ AcDbArc
   0
 LINE
   5
-12C
+127
 100
 AcDbEntity
   8
@@ -8197,7 +7955,7 @@ AcDbLine
   0
 ARC
   5
-12D
+128
 100
 AcDbEntity
   8
@@ -8225,7 +7983,7 @@ AcDbArc
   0
 LINE
   5
-12E
+129
 100
 AcDbEntity
   8
@@ -8249,7 +8007,7 @@ AcDbLine
   0
 ARC
   5
-12F
+12A
 100
 AcDbEntity
   8
@@ -8277,7 +8035,7 @@ AcDbArc
   0
 LINE
   5
-130
+12B
 100
 AcDbEntity
   8
@@ -8301,7 +8059,7 @@ AcDbLine
   0
 ARC
   5
-131
+12C
 100
 AcDbEntity
   8
@@ -8329,7 +8087,7 @@ AcDbArc
   0
 LINE
   5
-132
+12D
 100
 AcDbEntity
   8
@@ -8353,7 +8111,7 @@ AcDbLine
   0
 ARC
   5
-133
+12E
 100
 AcDbEntity
   8
@@ -8381,7 +8139,7 @@ AcDbArc
   0
 LINE
   5
-134
+12F
 100
 AcDbEntity
   8
@@ -8405,7 +8163,7 @@ AcDbLine
   0
 ARC
   5
-135
+130
 100
 AcDbEntity
   8
@@ -8433,7 +8191,7 @@ AcDbArc
   0
 LINE
   5
-136
+131
 100
 AcDbEntity
   8
@@ -8457,7 +8215,7 @@ AcDbLine
   0
 LINE
   5
-137
+132
 100
 AcDbEntity
   8
@@ -8481,7 +8239,7 @@ AcDbLine
   0
 LINE
   5
-138
+133
 100
 AcDbEntity
   8
@@ -8505,7 +8263,7 @@ AcDbLine
   0
 LINE
   5
-139
+134
 100
 AcDbEntity
   8
@@ -8529,7 +8287,7 @@ AcDbLine
   0
 LINE
   5
-13A
+135
 100
 AcDbEntity
   8
@@ -8553,7 +8311,7 @@ AcDbLine
   0
 LINE
   5
-13B
+136
 100
 AcDbEntity
   8
@@ -8577,7 +8335,7 @@ AcDbLine
   0
 LINE
   5
-13C
+137
 100
 AcDbEntity
   8
@@ -8601,7 +8359,7 @@ AcDbLine
   0
 LINE
   5
-13D
+138
 100
 AcDbEntity
   8
@@ -8625,7 +8383,7 @@ AcDbLine
   0
 ARC
   5
-13E
+139
 100
 AcDbEntity
   8
@@ -8653,7 +8411,7 @@ AcDbArc
   0
 LINE
   5
-13F
+13A
 100
 AcDbEntity
   8
@@ -8677,7 +8435,7 @@ AcDbLine
   0
 ARC
   5
-140
+13B
 100
 AcDbEntity
   8
@@ -8705,7 +8463,7 @@ AcDbArc
   0
 LINE
   5
-141
+13C
 100
 AcDbEntity
   8
@@ -8729,7 +8487,7 @@ AcDbLine
   0
 LINE
   5
-142
+13D
 100
 AcDbEntity
   8
@@ -8753,7 +8511,7 @@ AcDbLine
   0
 LINE
   5
-143
+13E
 100
 AcDbEntity
   8
@@ -8777,7 +8535,7 @@ AcDbLine
   0
 LINE
   5
-144
+13F
 100
 AcDbEntity
   8
@@ -8801,7 +8559,7 @@ AcDbLine
   0
 ARC
   5
-145
+140
 100
 AcDbEntity
   8
@@ -8829,7 +8587,7 @@ AcDbArc
   0
 LINE
   5
-146
+141
 100
 AcDbEntity
   8
@@ -8853,7 +8611,7 @@ AcDbLine
   0
 ARC
   5
-147
+142
 100
 AcDbEntity
   8
@@ -8881,7 +8639,7 @@ AcDbArc
   0
 LINE
   5
-148
+143
 100
 AcDbEntity
   8
@@ -8905,7 +8663,7 @@ AcDbLine
   0
 LINE
   5
-149
+144
 100
 AcDbEntity
   8
@@ -8929,7 +8687,7 @@ AcDbLine
   0
 ARC
   5
-14A
+145
 100
 AcDbEntity
   8
@@ -8957,7 +8715,7 @@ AcDbArc
   0
 LINE
   5
-14B
+146
 100
 AcDbEntity
   8
@@ -8981,7 +8739,7 @@ AcDbLine
   0
 ARC
   5
-14C
+147
 100
 AcDbEntity
   8
@@ -9009,7 +8767,7 @@ AcDbArc
   0
 LINE
   5
-14D
+148
 100
 AcDbEntity
   8
@@ -9033,7 +8791,7 @@ AcDbLine
   0
 LINE
   5
-14E
+149
 100
 AcDbEntity
   8
@@ -9057,7 +8815,7 @@ AcDbLine
   0
 LINE
   5
-14F
+14A
 100
 AcDbEntity
   8
@@ -9081,7 +8839,7 @@ AcDbLine
   0
 ARC
   5
-150
+14B
 100
 AcDbEntity
   8
@@ -9109,7 +8867,7 @@ AcDbArc
   0
 LINE
   5
-151
+14C
 100
 AcDbEntity
   8
@@ -9133,7 +8891,7 @@ AcDbLine
   0
 LINE
   5
-152
+14D
 100
 AcDbEntity
   8
@@ -9157,7 +8915,7 @@ AcDbLine
   0
 ARC
   5
-153
+14E
 100
 AcDbEntity
   8
@@ -9185,7 +8943,7 @@ AcDbArc
   0
 LINE
   5
-154
+14F
 100
 AcDbEntity
   8
@@ -9209,7 +8967,7 @@ AcDbLine
   0
 ARC
   5
-155
+150
 100
 AcDbEntity
   8
@@ -9237,7 +8995,7 @@ AcDbArc
   0
 LINE
   5
-156
+151
 100
 AcDbEntity
   8
@@ -9261,7 +9019,7 @@ AcDbLine
   0
 ARC
   5
-157
+152
 100
 AcDbEntity
   8
@@ -9289,7 +9047,7 @@ AcDbArc
   0
 LINE
   5
-158
+153
 100
 AcDbEntity
   8
@@ -9313,7 +9071,7 @@ AcDbLine
   0
 ARC
   5
-159
+154
 100
 AcDbEntity
   8
@@ -9341,7 +9099,7 @@ AcDbArc
   0
 LINE
   5
-15A
+155
 100
 AcDbEntity
   8
@@ -9365,7 +9123,7 @@ AcDbLine
   0
 LINE
   5
-15B
+156
 100
 AcDbEntity
   8
@@ -9389,7 +9147,7 @@ AcDbLine
   0
 LINE
   5
-15C
+157
 100
 AcDbEntity
   8
@@ -9413,7 +9171,7 @@ AcDbLine
   0
 LINE
   5
-15D
+158
 100
 AcDbEntity
   8
@@ -9437,7 +9195,7 @@ AcDbLine
   0
 LINE
   5
-15E
+159
 100
 AcDbEntity
   8
@@ -9461,7 +9219,7 @@ AcDbLine
   0
 LINE
   5
-15F
+15A
 100
 AcDbEntity
   8
@@ -9485,7 +9243,7 @@ AcDbLine
   0
 LINE
   5
-160
+15B
 100
 AcDbEntity
   8
@@ -9509,7 +9267,7 @@ AcDbLine
   0
 ARC
   5
-161
+15C
 100
 AcDbEntity
   8
@@ -9537,7 +9295,7 @@ AcDbArc
   0
 LINE
   5
-162
+15D
 100
 AcDbEntity
   8
@@ -9561,7 +9319,7 @@ AcDbLine
   0
 ARC
   5
-163
+15E
 100
 AcDbEntity
   8
@@ -9589,7 +9347,7 @@ AcDbArc
   0
 LINE
   5
-164
+15F
 100
 AcDbEntity
   8
@@ -9613,127 +9371,127 @@ AcDbLine
   0
 LINE
   5
+160
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+410.4318073831516
+ 20
+22.38163838977518
+ 11
+410.4318073831516
+ 21
+21.04830505644184
+  0
+LINE
+  5
+161
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+411.3206962720405
+ 20
+22.38163838977518
+ 11
+411.3206962720405
+ 21
+21.04830505644184
+  0
+LINE
+  5
+162
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+410.4318073831516
+ 20
+21.71497172310851
+ 11
+411.3206962720405
+ 21
+21.71497172310851
+  0
+LINE
+  5
+163
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+412.6540296053739
+ 20
+21.04830505644184
+ 11
+412.6540296053739
+ 21
+22.38163838977518
+  0
+LINE
+  5
+164
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+411.9873629387072
+ 20
+21.04830505644184
+ 11
+411.9873629387072
+ 21
+22.38163838977518
+  0
+LINE
+  5
 165
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-410.4318073831516
- 20
-22.38163838977518
- 11
-410.4318073831516
- 21
-21.04830505644184
-  0
-LINE
-  5
-166
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-411.3206962720405
- 20
-22.38163838977518
- 11
-411.3206962720405
- 21
-21.04830505644184
-  0
-LINE
-  5
-167
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-410.4318073831516
- 20
-21.71497172310851
- 11
-411.3206962720405
- 21
-21.71497172310851
-  0
-LINE
-  5
-168
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-412.6540296053739
- 20
-21.04830505644184
- 11
-412.6540296053739
- 21
-22.38163838977518
-  0
-LINE
-  5
-169
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-411.9873629387072
- 20
-21.04830505644184
- 11
-411.9873629387072
- 21
-22.38163838977518
-  0
-LINE
-  5
-16A
 100
 AcDbEntity
   8
@@ -9757,7 +9515,7 @@ AcDbLine
   0
 ARC
   5
-16B
+166
 100
 AcDbEntity
   8
@@ -9785,7 +9543,7 @@ AcDbArc
   0
 LINE
   5
-16C
+167
 100
 AcDbEntity
   8
@@ -9809,7 +9567,7 @@ AcDbLine
   0
 LINE
   5
-16D
+168
 100
 AcDbEntity
   8
@@ -9833,7 +9591,7 @@ AcDbLine
   0
 LINE
   5
-16E
+169
 100
 AcDbEntity
   8
@@ -9857,7 +9615,7 @@ AcDbLine
   0
 ARC
   5
-16F
+16A
 100
 AcDbEntity
   8
@@ -9885,7 +9643,7 @@ AcDbArc
   0
 LINE
   5
-170
+16B
 100
 AcDbEntity
   8
@@ -9909,7 +9667,7 @@ AcDbLine
   0
 ARC
   5
-171
+16C
 100
 AcDbEntity
   8
@@ -9937,7 +9695,7 @@ AcDbArc
   0
 LINE
   5
-172
+16D
 100
 AcDbEntity
   8
@@ -9961,7 +9719,7 @@ AcDbLine
   0
 LINE
   5
-173
+16E
 100
 AcDbEntity
   8
@@ -9985,7 +9743,7 @@ AcDbLine
   0
 LINE
   5
-174
+16F
 100
 AcDbEntity
   8
@@ -10009,7 +9767,7 @@ AcDbLine
   0
 LINE
   5
-175
+170
 100
 AcDbEntity
   8
@@ -10033,7 +9791,7 @@ AcDbLine
   0
 LINE
   5
-176
+171
 100
 AcDbEntity
   8
@@ -10057,7 +9815,7 @@ AcDbLine
   0
 LINE
   5
-177
+172
 100
 AcDbEntity
   8
@@ -10081,7 +9839,7 @@ AcDbLine
   0
 LINE
   5
-178
+173
 100
 AcDbEntity
   8
@@ -10105,7 +9863,7 @@ AcDbLine
   0
 LINE
   5
-179
+174
 100
 AcDbEntity
   8
@@ -10129,7 +9887,7 @@ AcDbLine
   0
 LINE
   5
-17A
+175
 100
 AcDbEntity
   8
@@ -10153,7 +9911,7 @@ AcDbLine
   0
 ARC
   5
-17B
+176
 100
 AcDbEntity
   8
@@ -10181,7 +9939,7 @@ AcDbArc
   0
 LINE
   5
-17C
+177
 100
 AcDbEntity
   8
@@ -10205,7 +9963,7 @@ AcDbLine
   0
 ARC
   5
-17D
+178
 100
 AcDbEntity
   8
@@ -10233,7 +9991,7 @@ AcDbArc
   0
 LINE
   5
-17E
+179
 100
 AcDbEntity
   8
@@ -10257,127 +10015,127 @@ AcDbLine
   0
 LINE
   5
+17A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+410.6651832576583
+ 20
+12.34215605301854
+ 11
+410.6651832576583
+ 21
+11.0088227196852
+  0
+LINE
+  5
+17B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+411.5540721465472
+ 20
+12.34215605301854
+ 11
+411.5540721465472
+ 21
+11.0088227196852
+  0
+LINE
+  5
+17C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+410.6651832576583
+ 20
+11.67548938635187
+ 11
+411.5540721465472
+ 21
+11.67548938635187
+  0
+LINE
+  5
+17D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+412.8874054798805
+ 20
+11.0088227196852
+ 11
+412.8874054798805
+ 21
+12.34215605301854
+  0
+LINE
+  5
+17E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+412.2207388132138
+ 20
+11.0088227196852
+ 11
+412.2207388132138
+ 21
+12.34215605301854
+  0
+LINE
+  5
 17F
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-410.6651832576583
- 20
-12.34215605301854
- 11
-410.6651832576583
- 21
-11.0088227196852
-  0
-LINE
-  5
-180
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-411.5540721465472
- 20
-12.34215605301854
- 11
-411.5540721465472
- 21
-11.0088227196852
-  0
-LINE
-  5
-181
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-410.6651832576583
- 20
-11.67548938635187
- 11
-411.5540721465472
- 21
-11.67548938635187
-  0
-LINE
-  5
-182
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-412.8874054798805
- 20
-11.0088227196852
- 11
-412.8874054798805
- 21
-12.34215605301854
-  0
-LINE
-  5
-183
-100
-AcDbEntity
-  8
-Написи на штампі
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-412.2207388132138
- 20
-11.0088227196852
- 11
-412.2207388132138
- 21
-12.34215605301854
-  0
-LINE
-  5
-184
 100
 AcDbEntity
   8
@@ -10401,7 +10159,7 @@ AcDbLine
   0
 ARC
   5
-185
+180
 100
 AcDbEntity
   8
@@ -10429,7 +10187,7 @@ AcDbArc
   0
 LINE
   5
-186
+181
 100
 AcDbEntity
   8
@@ -10453,7 +10211,7 @@ AcDbLine
   0
 LINE
   5
-187
+182
 100
 AcDbEntity
   8
@@ -10477,7 +10235,7 @@ AcDbLine
   0
 LINE
   5
-188
+183
 100
 AcDbEntity
   8
@@ -10501,7 +10259,7 @@ AcDbLine
   0
 ARC
   5
-189
+184
 100
 AcDbEntity
   8
@@ -10529,7 +10287,7 @@ AcDbArc
   0
 LINE
   5
-18A
+185
 100
 AcDbEntity
   8
@@ -10553,7 +10311,7 @@ AcDbLine
   0
 ARC
   5
-18B
+186
 100
 AcDbEntity
   8
@@ -10581,7 +10339,7 @@ AcDbArc
   0
 LINE
   5
-18C
+187
 100
 AcDbEntity
   8
@@ -10605,7 +10363,7 @@ AcDbLine
   0
 LINE
   5
-18D
+188
 100
 AcDbEntity
   8
@@ -10629,7 +10387,7 @@ AcDbLine
   0
 ARC
   5
-18E
+189
 100
 AcDbEntity
   8
@@ -10657,7 +10415,7 @@ AcDbArc
   0
 LINE
   5
-18F
+18A
 100
 AcDbEntity
   8
@@ -10681,7 +10439,7 @@ AcDbLine
   0
 ARC
   5
-190
+18B
 100
 AcDbEntity
   8
@@ -10709,7 +10467,7 @@ AcDbArc
   0
 LINE
   5
-191
+18C
 100
 AcDbEntity
   8
@@ -10733,7 +10491,7 @@ AcDbLine
   0
 ARC
   5
-192
+18D
 100
 AcDbEntity
   8
@@ -10761,7 +10519,7 @@ AcDbArc
   0
 ARC
   5
-193
+18E
 100
 AcDbEntity
   8
@@ -10789,7 +10547,7 @@ AcDbArc
   0
 LINE
   5
-194
+18F
 100
 AcDbEntity
   8
@@ -10813,7 +10571,7 @@ AcDbLine
   0
 ARC
   5
-195
+190
 100
 AcDbEntity
   8
@@ -10841,7 +10599,7 @@ AcDbArc
   0
 LINE
   5
-196
+191
 100
 AcDbEntity
   8
@@ -10865,7 +10623,7 @@ AcDbLine
   0
 ARC
   5
-197
+192
 100
 AcDbEntity
   8
@@ -10893,7 +10651,7 @@ AcDbArc
   0
 LINE
   5
-198
+193
 100
 AcDbEntity
   8
@@ -10917,7 +10675,7 @@ AcDbLine
   0
 LINE
   5
-199
+194
 100
 AcDbEntity
   8
@@ -10941,7 +10699,7 @@ AcDbLine
   0
 ARC
   5
-19A
+195
 100
 AcDbEntity
   8
@@ -10969,7 +10727,7 @@ AcDbArc
   0
 LINE
   5
-19B
+196
 100
 AcDbEntity
   8
@@ -10993,7 +10751,7 @@ AcDbLine
   0
 ARC
   5
-19C
+197
 100
 AcDbEntity
   8
@@ -11021,7 +10779,7 @@ AcDbArc
   0
 LINE
   5
-19D
+198
 100
 AcDbEntity
   8
@@ -11045,7 +10803,7 @@ AcDbLine
   0
 ARC
   5
-19E
+199
 100
 AcDbEntity
   8
@@ -11073,7 +10831,7 @@ AcDbArc
   0
 LINE
   5
-19F
+19A
 100
 AcDbEntity
   8
@@ -11097,7 +10855,7 @@ AcDbLine
   0
 LINE
   5
-1A0
+19B
 100
 AcDbEntity
   8
@@ -11121,7 +10879,7 @@ AcDbLine
   0
 LINE
   5
-1A1
+19C
 100
 AcDbEntity
   8
@@ -11145,7 +10903,7 @@ AcDbLine
   0
 ARC
   5
-1A2
+19D
 100
 AcDbEntity
   8
@@ -11173,7 +10931,7 @@ AcDbArc
   0
 LINE
   5
-1A3
+19E
 100
 AcDbEntity
   8
@@ -11197,7 +10955,7 @@ AcDbLine
   0
 LINE
   5
-1A4
+19F
 100
 AcDbEntity
   8
@@ -11221,7 +10979,7 @@ AcDbLine
   0
 ARC
   5
-1A5
+1A0
 100
 AcDbEntity
   8
@@ -11249,7 +11007,7 @@ AcDbArc
   0
 LINE
   5
-1A6
+1A1
 100
 AcDbEntity
   8
@@ -11273,7 +11031,7 @@ AcDbLine
   0
 LINE
   5
-1A7
+1A2
 100
 AcDbEntity
   8
@@ -11297,7 +11055,7 @@ AcDbLine
   0
 ARC
   5
-1A8
+1A3
 100
 AcDbEntity
   8
@@ -11325,7 +11083,7 @@ AcDbArc
   0
 LINE
   5
-1A9
+1A4
 100
 AcDbEntity
   8
@@ -11349,7 +11107,7 @@ AcDbLine
   0
 ARC
   5
-1AA
+1A5
 100
 AcDbEntity
   8
@@ -11377,7 +11135,7 @@ AcDbArc
   0
 LINE
   5
-1AB
+1A6
 100
 AcDbEntity
   8
@@ -11401,7 +11159,7 @@ AcDbLine
   0
 ARC
   5
-1AC
+1A7
 100
 AcDbEntity
   8
@@ -11429,7 +11187,7 @@ AcDbArc
   0
 LINE
   5
-1AD
+1A8
 100
 AcDbEntity
   8
@@ -11453,7 +11211,7 @@ AcDbLine
   0
 ARC
   5
-1AE
+1A9
 100
 AcDbEntity
   8
@@ -11481,7 +11239,7 @@ AcDbArc
   0
 LINE
   5
-1AF
+1AA
 100
 AcDbEntity
   8
@@ -11505,7 +11263,7 @@ AcDbLine
   0
 LINE
   5
-1B0
+1AB
 100
 AcDbEntity
   8
@@ -11529,7 +11287,7 @@ AcDbLine
   0
 LINE
   5
-1B1
+1AC
 100
 AcDbEntity
   8
@@ -11553,7 +11311,7 @@ AcDbLine
   0
 LINE
   5
-1B2
+1AD
 100
 AcDbEntity
   8
@@ -11577,7 +11335,7 @@ AcDbLine
   0
 LINE
   5
-1B3
+1AE
 100
 AcDbEntity
   8
@@ -11601,7 +11359,7 @@ AcDbLine
   0
 LINE
   5
-1B4
+1AF
 100
 AcDbEntity
   8
@@ -11625,7 +11383,7 @@ AcDbLine
   0
 LINE
   5
-1B5
+1B0
 100
 AcDbEntity
   8
@@ -11649,7 +11407,7 @@ AcDbLine
   0
 LINE
   5
-1B6
+1B1
 100
 AcDbEntity
   8
@@ -11673,7 +11431,7 @@ AcDbLine
   0
 LINE
   5
-1B7
+1B2
 100
 AcDbEntity
   8
@@ -11697,7 +11455,7 @@ AcDbLine
   0
 ARC
   5
-1B8
+1B3
 100
 AcDbEntity
   8
@@ -11725,7 +11483,7 @@ AcDbArc
   0
 LINE
   5
-1B9
+1B4
 100
 AcDbEntity
   8
@@ -11749,7 +11507,7 @@ AcDbLine
   0
 LINE
   5
-1BA
+1B5
 100
 AcDbEntity
   8
@@ -11773,7 +11531,7 @@ AcDbLine
   0
 ARC
   5
-1BB
+1B6
 100
 AcDbEntity
   8
@@ -11801,7 +11559,7 @@ AcDbArc
   0
 LINE
   5
-1BC
+1B7
 100
 AcDbEntity
   8
@@ -11825,7 +11583,7 @@ AcDbLine
   0
 ARC
   5
-1BD
+1B8
 100
 AcDbEntity
   8
@@ -11853,7 +11611,7 @@ AcDbArc
   0
 LINE
   5
-1BE
+1B9
 100
 AcDbEntity
   8
@@ -11877,7 +11635,7 @@ AcDbLine
   0
 LINE
   5
-1BF
+1BA
 100
 AcDbEntity
   8
@@ -11901,7 +11659,7 @@ AcDbLine
   0
 LINE
   5
-1C0
+1BB
 100
 AcDbEntity
   8
@@ -11925,7 +11683,7 @@ AcDbLine
   0
 LINE
   5
-1C1
+1BC
 100
 AcDbEntity
   8
@@ -11949,7 +11707,7 @@ AcDbLine
   0
 ARC
   5
-1C2
+1BD
 100
 AcDbEntity
   8
@@ -11977,7 +11735,7 @@ AcDbArc
   0
 LINE
   5
-1C3
+1BE
 100
 AcDbEntity
   8
@@ -12001,7 +11759,7 @@ AcDbLine
   0
 ARC
   5
-1C4
+1BF
 100
 AcDbEntity
   8
@@ -12029,7 +11787,7 @@ AcDbArc
   0
 LINE
   5
-1C5
+1C0
 100
 AcDbEntity
   8
@@ -12053,7 +11811,7 @@ AcDbLine
   0
 ARC
   5
-1C6
+1C1
 100
 AcDbEntity
   8
@@ -12081,7 +11839,7 @@ AcDbArc
   0
 LINE
   5
-1C7
+1C2
 100
 AcDbEntity
   8
@@ -12105,7 +11863,7 @@ AcDbLine
   0
 LINE
   5
-1C8
+1C3
 100
 AcDbEntity
   8
@@ -12129,7 +11887,7 @@ AcDbLine
   0
 ARC
   5
-1C9
+1C4
 100
 AcDbEntity
   8
@@ -12157,7 +11915,7 @@ AcDbArc
   0
 LINE
   5
-1CA
+1C5
 100
 AcDbEntity
   8
@@ -12181,7 +11939,7 @@ AcDbLine
   0
 ARC
   5
-1CB
+1C6
 100
 AcDbEntity
   8
@@ -12209,7 +11967,7 @@ AcDbArc
   0
 LINE
   5
-1CC
+1C7
 100
 AcDbEntity
   8
@@ -12233,7 +11991,7 @@ AcDbLine
   0
 ARC
   5
-1CD
+1C8
 100
 AcDbEntity
   8
@@ -12261,7 +12019,7 @@ AcDbArc
   0
 LINE
   5
-1CE
+1C9
 100
 AcDbEntity
   8
@@ -12285,7 +12043,7 @@ AcDbLine
   0
 LINE
   5
-1CF
+1CA
 100
 AcDbEntity
   8
@@ -12309,7 +12067,7 @@ AcDbLine
   0
 LINE
   5
-1D0
+1CB
 100
 AcDbEntity
   8
@@ -12333,7 +12091,7 @@ AcDbLine
   0
 LINE
   5
-1D1
+1CC
 100
 AcDbEntity
   8
@@ -12357,7 +12115,7 @@ AcDbLine
   0
 ARC
   5
-1D2
+1CD
 100
 AcDbEntity
   8
@@ -12385,7 +12143,7 @@ AcDbArc
   0
 LINE
   5
-1D3
+1CE
 100
 AcDbEntity
   8
@@ -12409,7 +12167,7 @@ AcDbLine
   0
 LINE
   5
-1D4
+1CF
 100
 AcDbEntity
   8
@@ -12433,7 +12191,7 @@ AcDbLine
   0
 ARC
   5
-1D5
+1D0
 100
 AcDbEntity
   8
@@ -12461,7 +12219,7 @@ AcDbArc
   0
 LINE
   5
-1D6
+1D1
 100
 AcDbEntity
   8
@@ -12485,7 +12243,7 @@ AcDbLine
   0
 ARC
   5
-1D7
+1D2
 100
 AcDbEntity
   8
@@ -12513,7 +12271,7 @@ AcDbArc
   0
 LINE
   5
-1D8
+1D3
 100
 AcDbEntity
   8
@@ -12537,7 +12295,7 @@ AcDbLine
   0
 ARC
   5
-1D9
+1D4
 100
 AcDbEntity
   8
@@ -12565,7 +12323,7 @@ AcDbArc
   0
 LINE
   5
-1DA
+1D5
 100
 AcDbEntity
   8
@@ -12589,7 +12347,7 @@ AcDbLine
   0
 ARC
   5
-1DB
+1D6
 100
 AcDbEntity
   8
@@ -12617,7 +12375,7 @@ AcDbArc
   0
 LINE
   5
-1DC
+1D7
 100
 AcDbEntity
   8
@@ -12641,7 +12399,7 @@ AcDbLine
   0
 ARC
   5
-1DD
+1D8
 100
 AcDbEntity
   8
@@ -12669,7 +12427,7 @@ AcDbArc
   0
 LINE
   5
-1DE
+1D9
 100
 AcDbEntity
   8
@@ -12693,7 +12451,7 @@ AcDbLine
   0
 ARC
   5
-1DF
+1DA
 100
 AcDbEntity
   8
@@ -12721,7 +12479,7 @@ AcDbArc
   0
 LINE
   5
-1E0
+1DB
 100
 AcDbEntity
   8
@@ -12745,7 +12503,7 @@ AcDbLine
   0
 LINE
   5
-1E1
+1DC
 100
 AcDbEntity
   8
@@ -12769,7 +12527,7 @@ AcDbLine
   0
 ARC
   5
-1E2
+1DD
 100
 AcDbEntity
   8
@@ -12797,7 +12555,7 @@ AcDbArc
   0
 LINE
   5
-1E3
+1DE
 100
 AcDbEntity
   8
@@ -12821,7 +12579,7 @@ AcDbLine
   0
 ARC
   5
-1E4
+1DF
 100
 AcDbEntity
   8
@@ -12849,7 +12607,7 @@ AcDbArc
   0
 LINE
   5
-1E5
+1E0
 100
 AcDbEntity
   8
@@ -12873,7 +12631,7 @@ AcDbLine
   0
 ARC
   5
-1E6
+1E1
 100
 AcDbEntity
   8
@@ -12901,7 +12659,7 @@ AcDbArc
   0
 LINE
   5
-1E7
+1E2
 100
 AcDbEntity
   8
@@ -12925,7 +12683,7 @@ AcDbLine
   0
 LINE
   5
-1E8
+1E3
 100
 AcDbEntity
   8
@@ -12949,7 +12707,7 @@ AcDbLine
   0
 LINE
   5
-1E9
+1E4
 100
 AcDbEntity
   8
@@ -12973,7 +12731,7 @@ AcDbLine
   0
 LINE
   5
-1EA
+1E5
 100
 AcDbEntity
   8
@@ -12997,7 +12755,7 @@ AcDbLine
   0
 ARC
   5
-1EB
+1E6
 100
 AcDbEntity
   8
@@ -13025,7 +12783,7 @@ AcDbArc
   0
 LINE
   5
-1EC
+1E7
 100
 AcDbEntity
   8
@@ -13049,7 +12807,7 @@ AcDbLine
   0
 LINE
   5
-1ED
+1E8
 100
 AcDbEntity
   8
@@ -13073,7 +12831,7 @@ AcDbLine
   0
 ARC
   5
-1EE
+1E9
 100
 AcDbEntity
   8
@@ -13101,7 +12859,7 @@ AcDbArc
   0
 LINE
   5
-1EF
+1EA
 100
 AcDbEntity
   8
@@ -13125,7 +12883,7 @@ AcDbLine
   0
 ARC
   5
-1F0
+1EB
 100
 AcDbEntity
   8
@@ -13153,7 +12911,7 @@ AcDbArc
   0
 LINE
   5
-1F1
+1EC
 100
 AcDbEntity
   8
@@ -13177,7 +12935,7 @@ AcDbLine
   0
 ARC
   5
-1F2
+1ED
 100
 AcDbEntity
   8
@@ -13205,7 +12963,7 @@ AcDbArc
   0
 LINE
   5
-1F3
+1EE
 100
 AcDbEntity
   8
@@ -13229,7 +12987,7 @@ AcDbLine
   0
 ARC
   5
-1F4
+1EF
 100
 AcDbEntity
   8
@@ -13257,7 +13015,7 @@ AcDbArc
   0
 LINE
   5
-1F5
+1F0
 100
 AcDbEntity
   8
@@ -13281,7 +13039,7 @@ AcDbLine
   0
 ARC
   5
-1F6
+1F1
 100
 AcDbEntity
   8
@@ -13309,7 +13067,7 @@ AcDbArc
   0
 LINE
   5
-1F7
+1F2
 100
 AcDbEntity
   8
@@ -13333,7 +13091,7 @@ AcDbLine
   0
 LINE
   5
-1F8
+1F3
 100
 AcDbEntity
   8
@@ -13357,7 +13115,7 @@ AcDbLine
   0
 ARC
   5
-1F9
+1F4
 100
 AcDbEntity
   8
@@ -13385,7 +13143,7 @@ AcDbArc
   0
 LINE
   5
-1FA
+1F5
 100
 AcDbEntity
   8
@@ -13409,7 +13167,7 @@ AcDbLine
   0
 LINE
   5
-1FB
+1F6
 100
 AcDbEntity
   8
@@ -13433,7 +13191,7 @@ AcDbLine
   0
 LINE
   5
-1FC
+1F7
 100
 AcDbEntity
   8
@@ -13457,7 +13215,7 @@ AcDbLine
   0
 LINE
   5
-1FD
+1F8
 100
 AcDbEntity
   8
@@ -13481,7 +13239,7 @@ AcDbLine
   0
 LINE
   5
-1FE
+1F9
 100
 AcDbEntity
   8
@@ -13505,7 +13263,7 @@ AcDbLine
   0
 LINE
   5
-1FF
+1FA
 100
 AcDbEntity
   8
@@ -13529,7 +13287,7 @@ AcDbLine
   0
 ARC
   5
-200
+1FB
 100
 AcDbEntity
   8
@@ -13557,7 +13315,7 @@ AcDbArc
   0
 LINE
   5
-201
+1FC
 100
 AcDbEntity
   8
@@ -13581,7 +13339,7 @@ AcDbLine
   0
 ARC
   5
-202
+1FD
 100
 AcDbEntity
   8
@@ -13609,7 +13367,7 @@ AcDbArc
   0
 LINE
   5
-203
+1FE
 100
 AcDbEntity
   8
@@ -13633,7 +13391,7 @@ AcDbLine
   0
 LINE
   5
-204
+1FF
 100
 AcDbEntity
   8
@@ -13657,7 +13415,7 @@ AcDbLine
   0
 ARC
   5
-205
+200
 100
 AcDbEntity
   8
@@ -13685,7 +13443,7 @@ AcDbArc
   0
 LINE
   5
-206
+201
 100
 AcDbEntity
   8
@@ -13709,7 +13467,7 @@ AcDbLine
   0
 ARC
   5
-207
+202
 100
 AcDbEntity
   8
@@ -13737,7 +13495,7 @@ AcDbArc
   0
 LINE
   5
-208
+203
 100
 AcDbEntity
   8
@@ -13761,7 +13519,7 @@ AcDbLine
   0
 ARC
   5
-209
+204
 100
 AcDbEntity
   8
@@ -13789,7 +13547,7 @@ AcDbArc
   0
 ARC
   5
-20A
+205
 100
 AcDbEntity
   8
@@ -13817,7 +13575,7 @@ AcDbArc
   0
 LINE
   5
-20B
+206
 100
 AcDbEntity
   8
@@ -13841,7 +13599,7 @@ AcDbLine
   0
 ARC
   5
-20C
+207
 100
 AcDbEntity
   8
@@ -13869,7 +13627,7 @@ AcDbArc
   0
 LINE
   5
-20D
+208
 100
 AcDbEntity
   8
@@ -13893,7 +13651,7 @@ AcDbLine
   0
 ARC
   5
-20E
+209
 100
 AcDbEntity
   8
@@ -13921,7 +13679,7 @@ AcDbArc
   0
 LINE
   5
-20F
+20A
 100
 AcDbEntity
   8
@@ -13945,7 +13703,7 @@ AcDbLine
   0
 ARC
   5
-210
+20B
 100
 AcDbEntity
   8
@@ -13973,7 +13731,7 @@ AcDbArc
   0
 LINE
   5
-211
+20C
 100
 AcDbEntity
   8
@@ -13997,7 +13755,7 @@ AcDbLine
   0
 LINE
   5
-212
+20D
 100
 AcDbEntity
   8
@@ -14021,7 +13779,7 @@ AcDbLine
   0
 LINE
   5
-213
+20E
 100
 AcDbEntity
   8
@@ -14045,7 +13803,7 @@ AcDbLine
   0
 LINE
   5
-214
+20F
 100
 AcDbEntity
   8
@@ -14069,7 +13827,7 @@ AcDbLine
   0
 LINE
   5
-215
+210
 100
 AcDbEntity
   8
@@ -14093,7 +13851,7 @@ AcDbLine
   0
 LINE
   5
-216
+211
 100
 AcDbEntity
   8
@@ -14117,7 +13875,7 @@ AcDbLine
   0
 LINE
   5
-217
+212
 100
 AcDbEntity
   8
@@ -14141,7 +13899,7 @@ AcDbLine
   0
 LINE
   5
-218
+213
 100
 AcDbEntity
   8
@@ -14165,7 +13923,7 @@ AcDbLine
   0
 ARC
   5
-219
+214
 100
 AcDbEntity
   8
@@ -14193,7 +13951,7 @@ AcDbArc
   0
 LINE
   5
-21A
+215
 100
 AcDbEntity
   8
@@ -14217,7 +13975,7 @@ AcDbLine
   0
 ARC
   5
-21B
+216
 100
 AcDbEntity
   8
@@ -14245,7 +14003,7 @@ AcDbArc
   0
 LINE
   5
-21C
+217
 100
 AcDbEntity
   8
@@ -14269,7 +14027,7 @@ AcDbLine
   0
 LINE
   5
-21D
+218
 100
 AcDbEntity
   8
@@ -14293,7 +14051,7 @@ AcDbLine
   0
 LINE
   5
-21E
+219
 100
 AcDbEntity
   8
@@ -14317,7 +14075,7 @@ AcDbLine
   0
 LINE
   5
-21F
+21A
 100
 AcDbEntity
   8
@@ -14341,7 +14099,7 @@ AcDbLine
   0
 LINE
   5
-220
+21B
 100
 AcDbEntity
   8
@@ -14365,7 +14123,7 @@ AcDbLine
   0
 LINE
   5
-221
+21C
 100
 AcDbEntity
   8
@@ -14389,7 +14147,7 @@ AcDbLine
   0
 LINE
   5
-222
+21D
 100
 AcDbEntity
   8
@@ -14413,7 +14171,7 @@ AcDbLine
   0
 LINE
   5
-223
+21E
 100
 AcDbEntity
   8
@@ -14437,7 +14195,7 @@ AcDbLine
   0
 LINE
   5
-224
+21F
 100
 AcDbEntity
   8
@@ -14461,7 +14219,7 @@ AcDbLine
   0
 LINE
   5
-225
+220
 100
 AcDbEntity
   8
@@ -14485,7 +14243,7 @@ AcDbLine
   0
 ARC
   5
-226
+221
 100
 AcDbEntity
   8
@@ -14513,7 +14271,7 @@ AcDbArc
   0
 LINE
   5
-227
+222
 100
 AcDbEntity
   8
@@ -14537,7 +14295,7 @@ AcDbLine
   0
 ARC
   5
-228
+223
 100
 AcDbEntity
   8
@@ -14565,7 +14323,7 @@ AcDbArc
   0
 LINE
   5
-229
+224
 100
 AcDbEntity
   8
@@ -14589,7 +14347,7 @@ AcDbLine
   0
 LINE
   5
-22A
+225
 100
 AcDbEntity
   8
@@ -14613,7 +14371,7 @@ AcDbLine
   0
 LINE
   5
-22B
+226
 100
 AcDbEntity
   8
@@ -14637,7 +14395,7 @@ AcDbLine
   0
 LINE
   5
-22C
+227
 100
 AcDbEntity
   8
@@ -14661,7 +14419,7 @@ AcDbLine
   0
 LINE
   5
-22D
+228
 100
 AcDbEntity
   8
@@ -14685,7 +14443,7 @@ AcDbLine
   0
 ARC
   5
-22E
+229
 100
 AcDbEntity
   8
@@ -14713,7 +14471,7 @@ AcDbArc
   0
 LINE
   5
-22F
+22A
 100
 AcDbEntity
   8
@@ -14737,7 +14495,7 @@ AcDbLine
   0
 LINE
   5
-230
+22B
 100
 AcDbEntity
   8
@@ -14761,7 +14519,7 @@ AcDbLine
   0
 LINE
   5
-231
+22C
 100
 AcDbEntity
   8
@@ -14785,7 +14543,7 @@ AcDbLine
   0
 ARC
   5
-232
+22D
 100
 AcDbEntity
   8
@@ -14813,7 +14571,7 @@ AcDbArc
   0
 LINE
   5
-233
+22E
 100
 AcDbEntity
   8
@@ -14837,7 +14595,7 @@ AcDbLine
   0
 LINE
   5
-234
+22F
 100
 AcDbEntity
   8
@@ -14861,7 +14619,7 @@ AcDbLine
   0
 ARC
   5
-235
+230
 100
 AcDbEntity
   8
@@ -14889,7 +14647,7 @@ AcDbArc
   0
 LINE
   5
-236
+231
 100
 AcDbEntity
   8
@@ -14913,7 +14671,7 @@ AcDbLine
   0
 LINE
   5
-237
+232
 100
 AcDbEntity
   8
@@ -14937,7 +14695,7 @@ AcDbLine
   0
 LINE
   5
-238
+233
 100
 AcDbEntity
   8
@@ -14961,7 +14719,7 @@ AcDbLine
   0
 LINE
   5
-239
+234
 100
 AcDbEntity
   8
@@ -14985,7 +14743,7 @@ AcDbLine
   0
 LINE
   5
-23A
+235
 100
 AcDbEntity
   8
@@ -15009,7 +14767,7 @@ AcDbLine
   0
 LINE
   5
-23B
+236
 100
 AcDbEntity
   8
@@ -15033,7 +14791,7 @@ AcDbLine
   0
 ARC
   5
-23C
+237
 100
 AcDbEntity
   8
@@ -15061,7 +14819,7 @@ AcDbArc
   0
 LINE
   5
-23D
+238
 100
 AcDbEntity
   8
@@ -15085,7 +14843,7 @@ AcDbLine
   0
 LINE
   5
-23E
+239
 100
 AcDbEntity
   8
@@ -15109,7 +14867,7 @@ AcDbLine
   0
 ARC
   5
-23F
+23A
 100
 AcDbEntity
   8
@@ -15137,7 +14895,7 @@ AcDbArc
   0
 LINE
   5
-240
+23B
 100
 AcDbEntity
   8
@@ -15161,7 +14919,7 @@ AcDbLine
   0
 ARC
   5
-241
+23C
 100
 AcDbEntity
   8
@@ -15189,7 +14947,7 @@ AcDbArc
   0
 LINE
   5
-242
+23D
 100
 AcDbEntity
   8
@@ -15213,7 +14971,7 @@ AcDbLine
   0
 ARC
   5
-243
+23E
 100
 AcDbEntity
   8
@@ -15241,7 +14999,7 @@ AcDbArc
   0
 LINE
   5
-244
+23F
 100
 AcDbEntity
   8
@@ -15265,7 +15023,7 @@ AcDbLine
   0
 ARC
   5
-245
+240
 100
 AcDbEntity
   8
@@ -15293,7 +15051,7 @@ AcDbArc
   0
 LINE
   5
-246
+241
 100
 AcDbEntity
   8
@@ -15315,6 +15073,162 @@ AcDbLine
  21
 45
   0
+ENDBLK
+  5
+59
+330
+57
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5B
+330
+5A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+штамп-0
+ 70
+    0
+ 10
+0
+ 20
+0
+  3
+штамп-0
+  1
+
+  0
+LINE
+  5
+242
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+-0.005798473605011623
+ 20
+55.05954786193465
+ 11
+184.994201526395
+ 21
+55.05954786193465
+  0
+LINE
+  5
+243
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+64.99420152639499
+ 20
+0.05954786193466166
+ 11
+64.99420152639499
+ 21
+55.05954786193465
+  0
+LINE
+  5
+244
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+54.99420152639499
+ 20
+0.05954786193466255
+ 11
+54.99420152639499
+ 21
+55.05954786193465
+  0
+LINE
+  5
+245
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+39.99420152639499
+ 20
+0.05954786193466433
+ 11
+39.99420152639499
+ 21
+55.05954786193465
+  0
+LINE
+  5
+246
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+16.99420152639499
+ 20
+0.05954786193466699
+ 11
+16.99420152639499
+ 21
+55.05954786193465
+  0
 LINE
   5
 247
@@ -15331,13 +15245,13 @@ ByLayer
 100
 AcDbLine
  10
-90
+154.994201526395
  20
-836
+15.05954786193465
  11
-157
+154.994201526395
  21
-836
+20.05954786193465
   0
 LINE
   5
@@ -15355,13 +15269,13 @@ ByLayer
 100
 AcDbLine
  10
-157
+149.994201526395
  20
-836
+20.05954786193465
  11
-157
+149.994201526395
  21
-822
+40.05954786193465
   0
 LINE
   5
@@ -15379,13 +15293,11891 @@ ByLayer
 100
 AcDbLine
  10
-157
+166.994201526395
  20
-822
+20.05954786193465
+ 11
+166.994201526395
+ 21
+40.05954786193465
+  0
+LINE
+  5
+24A
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+6.994201526394988
+ 20
+30.05954786193465
+ 11
+6.994201526394988
+ 21
+55.05954786193465
+  0
+LINE
+  5
+24B
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+134.994201526395
+ 20
+35.05954786193465
+ 11
+184.994201526395
+ 21
+35.05954786193465
+  0
+LINE
+  5
+24C
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+-0.005798473605011623
+ 20
+0.05954786193466877
+ 11
+-0.005798473605011623
+ 21
+55.05954786193465
+  0
+LINE
+  5
+24D
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+64.99420152639499
+ 20
+15.05954786193465
+ 11
+184.994201526395
+ 21
+15.05954786193465
+  0
+LINE
+  5
+24E
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+64.99420152639499
+ 20
+40.05954786193465
+ 11
+184.994201526395
+ 21
+40.05954786193465
+  0
+LINE
+  5
+24F
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+184.994201526395
+ 20
+20.05954786193465
+ 11
+149.994201526395
+ 21
+20.05954786193465
+  0
+LINE
+  5
+250
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+149.994201526395
+ 20
+20.05954786193465
+ 11
+134.994201526395
+ 21
+20.05954786193465
+  0
+LINE
+  5
+251
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   35
+100
+AcDbLine
+ 10
+-0.005798473605011623
+ 20
+5.059547861934647
+ 11
+64.99420152639499
+ 21
+5.059547861934647
+  0
+LINE
+  5
+252
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   35
+100
+AcDbLine
+ 10
+-0.005798473605011623
+ 20
+10.05954786193465
+ 11
+64.99420152639499
+ 21
+10.05954786193465
+  0
+LINE
+  5
+253
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   35
+100
+AcDbLine
+ 10
+-0.005798473605011623
+ 20
+45.05954786193465
+ 11
+64.99420152639499
+ 21
+45.05954786193465
+  0
+LINE
+  5
+254
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   35
+100
+AcDbLine
+ 10
+-0.005798473605011623
+ 20
+25.05954786193465
+ 11
+64.99420152639499
+ 21
+25.05954786193465
+  0
+LINE
+  5
+255
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   35
+100
+AcDbLine
+ 10
+-0.005798473605011623
+ 20
+20.05954786193465
+ 11
+64.99420152639499
+ 21
+20.05954786193465
+  0
+LINE
+  5
+256
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   35
+100
+AcDbLine
+ 10
+139.994201526395
+ 20
+35.05954786193465
+ 11
+139.994201526395
+ 21
+20.05954786193465
+  0
+LINE
+  5
+257
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   35
+100
+AcDbLine
+ 10
+144.994201526395
+ 20
+35.05954786193465
+ 11
+144.994201526395
+ 21
+20.05954786193465
+  0
+LINE
+  5
+258
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   35
+100
+AcDbLine
+ 10
+-0.005798473605011623
+ 20
+50.05954786193465
+ 11
+64.99420152639499
+ 21
+50.05954786193465
+  0
+LINE
+  5
+259
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   35
+100
+AcDbLine
+ 10
+-0.005798473605011623
+ 20
+15.05954786193465
+ 11
+64.99420152639499
+ 21
+15.05954786193465
+  0
+LINE
+  5
+25A
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   35
+100
+AcDbLine
+ 10
+-0.005798473605011623
+ 20
+40.05954786193465
+ 11
+64.99420152639499
+ 21
+40.05954786193465
+  0
+LINE
+  5
+25B
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+-0.005798473605011623
+ 20
+30.05954786193465
+ 11
+64.99420152639499
+ 21
+30.05954786193465
+  0
+LINE
+  5
+25C
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+-0.005798473605011623
+ 20
+35.05954786193465
+ 11
+64.99420152639499
+ 21
+35.05954786193465
+  0
+LINE
+  5
+25D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+20.66965110656702
+ 20
+31.71978069382082
+ 11
+20.66965110656702
+ 21
+33.57593180493193
+  0
+LINE
+  5
+25E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+20.66965110656702
+ 20
+33.57593180493193
+ 11
+21.52679332878927
+ 21
+31.72077180493195
+  0
+LINE
+  5
+25F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+21.52679332878927
+ 20
+31.72077180493195
+ 11
+21.52679332878927
+ 21
+33.57692291604306
+  0
+ARC
+  5
+260
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+22.02679443990041
+ 20
+32.93406513826528
+ 40
+0.2142855555555556
+100
+AcDbArc
+ 50
+180
+ 51
+0
+  0
+LINE
+  5
+261
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+22.24107999545589
+ 20
+32.93406513826528
+ 11
+22.24107999545589
+ 21
+33.36263847159861
+  0
+ARC
+  5
+262
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+22.02679443990041
+ 20
+33.36263847159861
+ 40
+0.2142855555555556
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+263
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+21.81250888434477
+ 20
+33.36263847159861
+ 11
+21.81250888434477
+ 21
+32.93406513826528
+  0
+LINE
+  5
+264
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+24.5411674364484
+ 20
+33.08837048531257
+ 11
+23.9856118808928
+ 21
+33.08837048531257
+  0
+ARC
+  5
+265
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+23.98561959858148
+ 20
+32.75502943429051
+ 40
+0.3333410511113925
+100
+AcDbArc
+ 50
+90.00132654225951
+ 51
+179.9986734577405
+  0
+LINE
+  5
+266
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+23.65227854755949
+ 20
+32.75503715197924
+ 11
+23.65227854755949
+ 21
+32.08837048531257
+  0
+ARC
+  5
+267
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+23.98561959858148
+ 20
+32.08837820300128
+ 40
+0.3333410511113925
+100
+AcDbArc
+ 50
+180.0013265422595
+ 51
+269.9986734577404
+  0
+LINE
+  5
+268
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+23.9856118808928
+ 20
+31.75503715197924
+ 11
+24.20783410311498
+ 21
+31.75503715197924
+  0
+ARC
+  5
+269
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+24.2078263854263
+ 20
+32.08837820300128
+ 40
+0.3333410511113925
+100
+AcDbArc
+ 50
+270.0013265422595
+ 51
+359.9986734577404
+  0
+LINE
+  5
+26A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+24.5411674364484
+ 20
+32.08837048531257
+ 11
+24.5411674364484
+ 21
+33.42170381864591
+  0
+ARC
+  5
+26B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+24.2078263854263
+ 20
+33.42169610095718
+ 40
+0.3333410511113925
+100
+AcDbArc
+ 50
+0.00132654225952257
+ 51
+89.99867345774048
+  0
+LINE
+  5
+26C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+24.20783410311498
+ 20
+33.75503715197924
+ 11
+23.76338965867058
+ 21
+33.75503715197924
+  0
+ARC
+  5
+26D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+25.65227854755949
+ 20
+32.19948159642367
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+180
+ 51
+0
+  0
+LINE
+  5
+26E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+25.20783410311498
+ 20
+32.19948159642367
+ 11
+25.20783410311498
+ 21
+32.64392604086812
+  0
+ARC
+  5
+26F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+25.65227854755949
+ 20
+32.64392604086812
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+270
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+26.096722992004
+ 20
+32.64392604086812
+ 11
+26.096722992004
+ 21
+32.19948159642367
+  0
+LINE
+  5
+271
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+26.76338965867058
+ 20
+33.08837048531257
+ 11
+26.76338965867058
+ 21
+31.75503715197924
+  0
+LINE
+  5
+272
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+26.76338965867058
+ 20
+32.42170381864591
+ 11
+27.65227854755949
+ 21
+33.08837048531257
+  0
+LINE
+  5
+273
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+27.05968521422608
+ 20
+32.64392604086812
+ 11
+27.65227854755949
+ 21
+31.75503715197924
+  0
+LINE
+  5
+274
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+28.31894521422606
+ 20
+33.08837048531257
+ 11
+28.31894521422606
+ 21
+32.08837048531257
+  0
+ARC
+  5
+275
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+28.65227829853438
+ 20
+32.08837023628751
+ 40
+0.3333330843083652
+100
+AcDbArc
+ 50
+179.999957195713
+ 51
+270.000042804287
+  0
+LINE
+  5
+276
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+28.65227854755938
+ 20
+31.75503715197924
+ 11
+29.20783410311498
+ 21
+31.75503715197924
+  0
+LINE
+  5
+277
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+29.20783410311498
+ 20
+31.75503715197924
+ 11
+29.20783410311498
+ 21
+33.08837048531257
+  0
+LINE
+  5
+278
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+28.4300563253372
+ 20
+31.08837048531257
+ 11
+28.87450076978166
+ 21
+31.08837048531257
+  0
+ARC
+  5
+279
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+28.87449305209287
+ 20
+31.42171153633462
+ 40
+0.3333410511113925
+100
+AcDbArc
+ 50
+270.0013265422595
+ 51
+359.9986734577404
+  0
+LINE
+  5
+27A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+29.20783410311498
+ 20
+31.42170381864591
+ 11
+29.20783410311498
+ 21
+31.75503715197924
+  0
+LINE
+  5
+27B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+29.87450076978166
+ 20
+31.75503715197924
+ 11
+29.87450076978166
+ 21
+33.08837048531257
+  0
+LINE
+  5
+27C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+29.87450076978166
+ 20
+33.08837048531257
+ 11
+30.43005632533726
+ 21
+32.31059270753479
+  0
+LINE
+  5
+27D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+30.43005632533726
+ 20
+32.31059270753479
+ 11
+30.9856118808928
+ 21
+33.08837048531257
+  0
+LINE
+  5
+27E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+30.9856118808928
+ 20
+33.08837048531257
+ 11
+30.9856118808928
+ 21
+31.75503715197924
+  0
+LINE
+  5
+27F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+32.5411674364484
+ 20
+31.75503715197924
+ 11
+31.9856118808928
+ 21
+31.75503715197924
+  0
+ARC
+  5
+280
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+31.98561163186781
+ 20
+32.08837023628751
+ 40
+0.3333330843083652
+100
+AcDbArc
+ 50
+179.999957195713
+ 51
+270.000042804287
+  0
+LINE
+  5
+281
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+31.65227854755949
+ 20
+32.08837048531257
+ 11
+31.65227854755949
+ 21
+32.64392604086812
+  0
+ARC
+  5
+282
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+32.096722992004
+ 20
+32.64392604086812
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+283
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+32.5411674364484
+ 20
+32.64392604086812
+ 11
+32.5411674364484
+ 21
+32.42170381864591
+  0
+LINE
+  5
+284
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+32.5411674364484
+ 20
+32.42170381864591
+ 11
+31.65227854755949
+ 21
+32.42170381864591
+  0
+LINE
+  5
+285
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+33.20783410311498
+ 20
+33.08837048531257
+ 11
+33.20783410311498
+ 21
+31.75503715197924
+  0
+LINE
+  5
+286
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+34.096722992004
+ 20
+33.08837048531257
+ 11
+34.096722992004
+ 21
+31.75503715197924
+  0
+LINE
+  5
+287
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+33.20783410311498
+ 20
+32.42170381864591
+ 11
+34.096722992004
+ 21
+32.42170381864591
+  0
+LINE
+  5
+288
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+34.76338965867058
+ 20
+31.75503715197924
+ 11
+34.76338965867058
+ 21
+31.86614826309036
+  0
+ARC
+  5
+289
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.26442129992347
+ 20
+32.2293001604837
+ 40
+0.44954215857986
+100
+AcDbArc
+ 50
+207.1437365338053
+ 51
+269.7127223626402
+  0
+LINE
+  5
+28A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.262167331669502
+ 20
+31.7797636525472
+ 11
+1.484389553891674
+ 21
+31.7797636525472
+  0
+ARC
+  5
+28B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.481164621642392
+ 20
+32.22743302924097
+ 40
+0.4476809924682961
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+28C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.928833998336074
+ 20
+32.22420809699164
+ 11
+1.928833998336074
+ 21
+32.44643031921385
+  0
+ARC
+  5
+28D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.481164621642392
+ 20
+32.44320538696455
+ 40
+0.4476809924682961
+100
+AcDbArc
+ 50
+0.4127416806118446
+ 51
+89.58725831938816
+  0
+ARC
+  5
+28E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.484389553891674
+ 20
+33.33531920810276
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+270
+ 51
+90
+  0
+LINE
+  5
+28F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.484389553891674
+ 20
+33.7797636525472
+ 11
+1.262167331669502
+ 21
+33.7797636525472
+  0
+ARC
+  5
+290
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.263945109447263
+ 20
+33.34087476365831
+ 40
+0.4388924894367077
+100
+AcDbArc
+ 50
+90.2320829008752
+ 51
+135.471812796956
+  0
+LINE
+  5
+291
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.484389553891674
+ 20
+32.89087476365831
+ 11
+1.262167331669502
+ 21
+32.89087476365831
+  0
+LINE
+  5
+292
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2.595500665002817
+ 20
+31.7797636525472
+ 11
+2.595500665002817
+ 21
+33.11309698588052
+  0
+LINE
+  5
+293
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2.595500665002817
+ 20
+33.11309698588052
+ 11
+3.151056220558416
+ 21
+32.33531920810276
+  0
+LINE
+  5
+294
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.151056220558416
+ 20
+32.33531920810276
+ 11
+3.706611776113903
+ 21
+33.11309698588052
+  0
+LINE
+  5
+295
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.706611776113903
+ 20
+33.11309698588052
+ 11
+3.706611776113903
+ 21
+31.7797636525472
+  0
+LINE
+  5
+296
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.373278442780588
+ 20
+31.7797636525472
+ 11
+4.373278442780588
+ 21
+33.11309698588052
+  0
+LINE
+  5
+297
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.373278442780588
+ 20
+33.66865254143607
+ 11
+4.373278442780588
+ 21
+33.7797636525472
+  0
+LINE
+  5
+298
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.039945109447274
+ 20
+33.11309698588052
+ 11
+5.039945109447274
+ 21
+31.7797636525472
+  0
+LINE
+  5
+299
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.928833998336188
+ 20
+33.11309698588052
+ 11
+5.928833998336188
+ 21
+31.7797636525472
+  0
+LINE
+  5
+29A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.039945109447274
+ 20
+32.44643031921385
+ 11
+5.928833998336188
+ 21
+32.44643031921385
+  0
+LINE
+  5
+29B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.594631062166798
+ 20
+32.29935518431227
+ 11
+9.55907550661118
+ 21
+32.29935518431227
+  0
+LINE
+  5
+29C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.410186617722275
+ 20
+31.7437996287567
+ 11
+9.07685328438896
+ 21
+33.7437996287567
+  0
+LINE
+  5
+29D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9.07685328438896
+ 20
+33.7437996287567
+ 11
+9.743519951055589
+ 21
+31.7437996287567
+  0
+LINE
+  5
+29E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+10.41018661772227
+ 20
+31.07713296209003
+ 11
+10.41018661772227
+ 21
+33.07713296209003
+  0
+LINE
+  5
+29F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+10.41018661772227
+ 20
+33.07713296209003
+ 11
+10.96574217327776
+ 21
+33.07713296209003
+  0
+ARC
+  5
+2A0
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+10.96332347409077
+ 20
+32.74138092956971
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+2A1
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.29907550661119
+ 20
+32.7437996287567
+ 11
+11.29907550661119
+ 21
+32.07713296209003
+  0
+ARC
+  5
+2A2
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+10.96332347409077
+ 20
+32.07955166127703
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+2A3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+10.96574217327776
+ 20
+31.7437996287567
+ 11
+10.41018661772227
+ 21
+31.7437996287567
+  0
+LINE
+  5
+2A4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.96574217327776
+ 20
+33.07713296209003
+ 11
+11.96574217327776
+ 21
+31.7437996287567
+  0
+LINE
+  5
+2A5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.96574217327776
+ 20
+32.41046629542337
+ 11
+12.85463106216667
+ 21
+33.07713296209003
+  0
+LINE
+  5
+2A6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+12.26129772883337
+ 20
+32.63268851764558
+ 11
+12.85463106216667
+ 21
+31.7437996287567
+  0
+LINE
+  5
+2A7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+13.52129772883336
+ 20
+31.7437996287567
+ 11
+13.52129772883336
+ 21
+31.85491073986782
+  0
+LINE
+  5
+2A8
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+43.08228765169241
+ 20
+31.70336588222612
+ 11
+43.08228765169241
+ 21
+33.70336588222612
+  0
+LINE
+  5
+2A9
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+43.08228765169241
+ 20
+33.70336588222612
+ 11
+41.97117654058127
+ 21
+33.70336588222612
+  0
+LINE
+  5
+2AA
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+41.97117654058127
+ 20
+33.70336588222612
+ 11
+41.97117654058127
+ 21
+31.70336588222612
+  0
+LINE
+  5
+2AB
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+43.7489543183591
+ 20
+31.70336588222612
+ 11
+43.7489543183591
+ 21
+33.03669921555947
+  0
+LINE
+  5
+2AC
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+43.7489543183591
+ 20
+33.59225477111502
+ 11
+43.7489543183591
+ 21
+33.70336588222612
+  0
+LINE
+  5
+2AD
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+45.3045098739147
+ 20
+33.03669921555947
+ 11
+44.7489543183591
+ 21
+33.03669921555947
+  0
+ARC
+  5
+2AE
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+44.75137301754597
+ 20
+32.70094718303913
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+2AF
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+44.41562098502567
+ 20
+32.70336588222612
+ 11
+44.41562098502567
+ 21
+32.03669921555947
+  0
+ARC
+  5
+2B0
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+44.75137301754597
+ 20
+32.03911791474646
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+2B1
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+44.7489543183591
+ 20
+31.70336588222612
+ 11
+44.97117654058127
+ 21
+31.70336588222612
+  0
+ARC
+  5
+2B2
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+44.96875784139428
+ 20
+32.03911791474646
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+2B3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+45.3045098739147
+ 20
+32.03669921555947
+ 11
+45.3045098739147
+ 21
+33.37003254889279
+  0
+ARC
+  5
+2B4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+44.96875784139428
+ 20
+33.3676138497058
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+2B5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+44.97117654058127
+ 20
+33.70336588222612
+ 11
+44.52673209613681
+ 21
+33.70336588222612
+  0
+LINE
+  5
+2B6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+45.97117654058127
+ 20
+31.70336588222612
+ 11
+45.97117654058127
+ 21
+33.03669921555947
+  0
+LINE
+  5
+2B7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+45.97117654058127
+ 20
+33.03669921555947
+ 11
+46.52673209613681
+ 21
+33.03669921555947
+  0
+ARC
+  5
+2B8
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+46.52431339694976
+ 20
+32.70094718303913
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+2B9
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+46.86006542947018
+ 20
+32.70336588222612
+ 11
+46.86006542947018
+ 21
+31.70336588222612
+  0
+LINE
+  5
+2BA
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+47.52673209613687
+ 20
+33.03669921555947
+ 11
+47.52673209613687
+ 21
+32.03669921555947
+  0
+ARC
+  5
+2BB
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+47.86248412865717
+ 20
+32.03911791474646
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+2BC
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+47.86006542947018
+ 20
+31.70336588222612
+ 11
+48.41562098502578
+ 21
+31.70336588222612
+  0
+LINE
+  5
+2BD
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+48.41562098502578
+ 20
+31.70336588222612
+ 11
+48.41562098502578
+ 21
+33.03669921555947
+  0
+LINE
+  5
+2BE
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+49.7489543183591
+ 20
+33.03669921555947
+ 11
+49.41562098502567
+ 21
+33.03669921555947
+  0
+ARC
+  5
+2BF
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+49.41803968421272
+ 20
+32.70094718303913
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+2C0
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+49.08228765169241
+ 20
+32.70336588222612
+ 11
+49.08228765169241
+ 21
+32.03669921555947
+  0
+ARC
+  5
+2C1
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+49.41803968421272
+ 20
+32.03911791474646
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+2C2
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+49.41562098502567
+ 20
+31.70336588222612
+ 11
+49.7489543183591
+ 21
+31.70336588222612
+  0
+LINE
+  5
+2C3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+56.4933203011658
+ 20
+31.35226920403318
+ 11
+56.4933203011658
+ 21
+31.68560253736651
+  0
+LINE
+  5
+2C4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+56.4933203011658
+ 20
+31.68560253736651
+ 11
+57.82665363449911
+ 21
+31.68560253736651
+  0
+LINE
+  5
+2C5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+57.82665363449911
+ 20
+31.68560253736651
+ 11
+57.82665363449911
+ 21
+31.35226920403318
+  0
+LINE
+  5
+2C6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+57.71554252338797
+ 20
+31.68560253736651
+ 11
+57.71554252338797
+ 21
+33.68560253736651
+  0
+LINE
+  5
+2C7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+57.71554252338797
+ 20
+33.68560253736651
+ 11
+57.27109807894357
+ 21
+33.68560253736651
+  0
+LINE
+  5
+2C8
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+57.27109807894357
+ 20
+33.68560253736651
+ 11
+56.60443141227688
+ 21
+31.68560253736651
+  0
+ARC
+  5
+2C9
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+59.71796122257501
+ 20
+32.02135456988684
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193882
+  0
+LINE
+  5
+2CA
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+59.38220919005471
+ 20
+32.01893587069985
+ 11
+59.38220919005471
+ 21
+33.01893587069985
+  0
+LINE
+  5
+2CB
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+59.38220919005471
+ 20
+33.01893587069985
+ 11
+58.82665363449911
+ 21
+33.01893587069985
+  0
+ARC
+  5
+2CC
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+58.8290723336861
+ 20
+32.68318383817952
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+2CD
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+58.4933203011658
+ 20
+32.68560253736651
+ 11
+58.4933203011658
+ 21
+32.01893587069985
+  0
+ARC
+  5
+2CE
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+58.8290723336861
+ 20
+32.02135456988684
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+2CF
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+58.82665363449911
+ 20
+31.68560253736651
+ 11
+59.04887585672128
+ 21
+31.68560253736651
+  0
+ARC
+  5
+2D0
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+59.04645715753441
+ 20
+32.02135456988684
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+2D1
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+61.04887585672128
+ 20
+31.68560253736651
+ 11
+61.04887585672128
+ 21
+33.01893587069985
+  0
+LINE
+  5
+2D2
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+60.38220919005471
+ 20
+31.68560253736651
+ 11
+60.38220919005471
+ 21
+33.01893587069985
+  0
+LINE
+  5
+2D3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+60.38220919005471
+ 20
+33.01893587069985
+ 11
+61.38220919005471
+ 21
+33.01893587069985
+  0
+ARC
+  5
+2D4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+61.37979049086766
+ 20
+32.68318383817952
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.412741680611836
+ 51
+89.58725831938813
+  0
+LINE
+  5
+2D5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+61.71554252338797
+ 20
+32.68560253736651
+ 11
+61.71554252338797
+ 21
+31.68560253736651
+  0
+ARC
+  5
+2D6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+63.60685011146387
+ 20
+32.02135456988684
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193882
+  0
+LINE
+  5
+2D7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+63.27109807894357
+ 20
+32.01893587069985
+ 11
+63.27109807894357
+ 21
+33.01893587069985
+  0
+LINE
+  5
+2D8
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+63.27109807894357
+ 20
+33.01893587069985
+ 11
+62.71554252338797
+ 21
+33.01893587069985
+  0
+ARC
+  5
+2D9
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+62.71796122257501
+ 20
+32.68318383817952
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+2DA
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+62.38220919005471
+ 20
+32.68560253736651
+ 11
+62.38220919005471
+ 21
+32.01893587069985
+  0
+ARC
+  5
+2DB
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+62.71796122257501
+ 20
+32.02135456988684
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+2DC
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+62.71554252338797
+ 20
+31.68560253736651
+ 11
+62.9377647456102
+ 21
+31.68560253736651
+  0
+ARC
+  5
+2DD
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+62.93534604642321
+ 20
+32.02135456988684
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+2DE
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0.9607707111503032
+ 20
+26.09199444781052
+ 11
+0.9607707111503032
+ 21
+28.09199444781051
+  0
+LINE
+  5
+2DF
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0.9607707111503032
+ 20
+28.09199444781051
+ 11
+1.627437377816989
+ 21
+28.09199444781051
+  0
+ARC
+  5
+2E0
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.624212445567707
+ 20
+27.64432507111675
+ 40
+0.4476809924682961
+100
+AcDbArc
+ 50
+0.4127416806118446
+ 51
+89.58725831938816
+  0
+LINE
+  5
+2E1
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2.071881822261389
+ 20
+27.64755000336608
+ 11
+2.071881822261389
+ 21
+27.42532778114386
+  0
+ARC
+  5
+2E2
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.624212445567707
+ 20
+27.42855271339317
+ 40
+0.4476809924682961
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+2E3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.627437377816989
+ 20
+26.98088333669941
+ 11
+0.9607707111503032
+ 21
+26.98088333669941
+  0
+ARC
+  5
+2E4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+3.182992933372475
+ 20
+26.53643889225497
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+180
+ 51
+0
+  0
+LINE
+  5
+2E5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2.738548488928075
+ 20
+26.53643889225497
+ 11
+2.738548488928075
+ 21
+26.98088333669941
+  0
+ARC
+  5
+2E6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+3.182992933372475
+ 20
+26.98088333669941
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+2E7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.627437377816989
+ 20
+26.98088333669941
+ 11
+3.627437377816989
+ 21
+26.53643889225497
+  0
+ARC
+  5
+2E8
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+4.622159600039197
+ 20
+26.42906389225497
+ 40
+0.33711076119928
+100
+AcDbArc
+ 50
+199.9183680623762
+ 51
+270.897054562604
+  0
+LINE
+  5
+2E9
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.627437377816875
+ 20
+26.09199444781052
+ 11
+4.849659600039161
+ 21
+26.09199444781052
+  0
+ARC
+  5
+2EA
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+4.849659600039161
+ 20
+26.42532778114386
+ 40
+0.3333333333333333
+100
+AcDbArc
+ 50
+270
+ 51
+90
+  0
+ARC
+  5
+2EB
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+4.849659600039161
+ 20
+27.09199444781051
+ 40
+0.3333333333333333
+100
+AcDbArc
+ 50
+270
+ 51
+90
+  0
+LINE
+  5
+2EC
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.849659600039161
+ 20
+27.42532778114386
+ 11
+4.627437377816875
+ 21
+27.42532778114386
+  0
+ARC
+  5
+2ED
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+4.629951266705916
+ 20
+27.08270278114384
+ 40
+0.3426342222580016
+100
+AcDbArc
+ 50
+90.42037982906382
+ 51
+161.3990663292916
+  0
+LINE
+  5
+2EE
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.627437377816875
+ 20
+26.75866111447719
+ 11
+4.849659600039161
+ 21
+26.75866111447719
+  0
+LINE
+  5
+2EF
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.849659600039161
+ 20
+25.42532778114386
+ 11
+5.849659600039161
+ 21
+27.42532778114386
+  0
+LINE
+  5
+2F0
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.849659600039161
+ 20
+27.42532778114386
+ 11
+6.405215155594703
+ 21
+27.42532778114386
+  0
+ARC
+  5
+2F1
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+6.402796456407714
+ 20
+27.08957574862352
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+2F2
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.738548488928075
+ 20
+27.09199444781051
+ 11
+6.738548488928075
+ 21
+26.42532778114386
+  0
+ARC
+  5
+2F3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+6.402796456407714
+ 20
+26.42774648033085
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+2F4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.405215155594703
+ 20
+26.09199444781052
+ 11
+5.849659600039161
+ 21
+26.09199444781052
+  0
+ARC
+  5
+2F5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+7.849659600039161
+ 20
+26.53643889225497
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+180
+ 51
+0
+  0
+LINE
+  5
+2F6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.40521515559476
+ 20
+26.53643889225497
+ 11
+7.40521515559476
+ 21
+26.98088333669941
+  0
+ARC
+  5
+2F7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+7.849659600039161
+ 20
+26.98088333669941
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+2F8
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.294104044483674
+ 20
+26.98088333669941
+ 11
+8.294104044483674
+ 21
+26.53643889225497
+  0
+ARC
+  5
+2F9
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+9.296522743670607
+ 20
+27.08957574862352
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+2FA
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.960770711150303
+ 20
+27.09199444781051
+ 11
+8.960770711150303
+ 21
+26.42532778114386
+  0
+ARC
+  5
+2FB
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+9.296522743670607
+ 20
+26.42774648033085
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+2FC
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9.294104044483561
+ 20
+26.09199444781052
+ 11
+9.516326266705903
+ 21
+26.09199444781052
+  0
+ARC
+  5
+2FD
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+9.513907567518913
+ 20
+26.42774648033085
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+2FE
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9.849659600039161
+ 20
+26.42532778114386
+ 11
+9.849659600039161
+ 21
+27.09199444781051
+  0
+ARC
+  5
+2FF
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+9.513907567518913
+ 20
+27.08957574862352
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+300
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9.516326266705903
+ 20
+27.42532778114386
+ 11
+9.294104044483561
+ 21
+27.42532778114386
+  0
+LINE
+  5
+301
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9.849659600039161
+ 20
+28.09199444781051
+ 11
+8.960770711150303
+ 21
+28.09199444781051
+  0
+LINE
+  5
+302
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.960770711150303
+ 20
+28.09199444781051
+ 11
+9.747437377816993
+ 21
+27.33199444781053
+  0
+LINE
+  5
+303
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+10.5163262667059
+ 20
+26.09199444781052
+ 11
+10.5163262667059
+ 21
+26.20310555892163
+  0
+LINE
+  5
+304
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.954493041372814
+ 20
+21.03551307587106
+ 11
+1.954493041372814
+ 21
+23.03551307587106
+  0
+LINE
+  5
+305
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.954493041372814
+ 20
+23.03551307587106
+ 11
+0.8433819302616712
+ 21
+23.03551307587106
+  0
+LINE
+  5
+306
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0.8433819302616712
+ 20
+23.03551307587106
+ 11
+0.8433819302616712
+ 21
+21.03551307587106
+  0
+LINE
+  5
+307
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.510048596928414
+ 20
+21.03551307587106
+ 11
+2.954493041372814
+ 21
+21.03551307587106
+  0
+ARC
+  5
+308
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+2.956911740559804
+ 20
+21.37126510839138
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+309
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2.621159708039499
+ 20
+21.36884640920439
+ 11
+2.621159708039499
+ 21
+21.92440196475995
+  0
+ARC
+  5
+30A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+3.0656041524839
+ 20
+21.92440196475995
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+30B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.510048596928414
+ 20
+21.92440196475995
+ 11
+3.510048596928414
+ 21
+21.70217974253773
+  0
+LINE
+  5
+30C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.510048596928414
+ 20
+21.70217974253773
+ 11
+2.621159708039499
+ 21
+21.70217974253773
+  0
+LINE
+  5
+30D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.176715263594986
+ 20
+20.36884640920439
+ 11
+4.176715263594986
+ 21
+22.36884640920439
+  0
+LINE
+  5
+30E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.176715263594986
+ 20
+22.36884640920439
+ 11
+4.732270819150472
+ 21
+22.36884640920439
+  0
+ARC
+  5
+30F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+4.729852119963596
+ 20
+22.03309437668407
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+310
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.0656041524839
+ 20
+22.03551307587106
+ 11
+5.0656041524839
+ 21
+21.36884640920439
+  0
+ARC
+  5
+311
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+4.729852119963596
+ 20
+21.37126510839138
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+312
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.732270819150472
+ 20
+21.03551307587106
+ 11
+4.176715263594986
+ 21
+21.03551307587106
+  0
+LINE
+  5
+313
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.621159708039499
+ 20
+21.03551307587106
+ 11
+6.0656041524839
+ 21
+21.03551307587106
+  0
+ARC
+  5
+314
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+6.068022851670889
+ 20
+21.37126510839138
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+315
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.732270819150585
+ 20
+21.36884640920439
+ 11
+5.732270819150585
+ 21
+21.92440196475995
+  0
+ARC
+  5
+316
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+6.176715263595099
+ 20
+21.92440196475995
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+317
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.621159708039499
+ 20
+21.92440196475995
+ 11
+6.621159708039499
+ 21
+21.70217974253773
+  0
+LINE
+  5
+318
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.621159708039499
+ 20
+21.70217974253773
+ 11
+5.732270819150585
+ 21
+21.70217974253773
+  0
+LINE
+  5
+319
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.35227081915059
+ 20
+22.23551307587106
+ 11
+7.710048596928402
+ 21
+22.71329085364884
+  0
+ARC
+  5
+31A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+7.510596215975966
+ 20
+22.81251660320792
+ 40
+0.2227711867435632
+100
+AcDbArc
+ 50
+333.5500717202343
+ 51
+179.8008657559842
+  0
+LINE
+  5
+31B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.287826374706071
+ 20
+22.81329085364883
+ 11
+7.287826374706071
+ 21
+22.03551307587106
+  0
+LINE
+  5
+31C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.287826374706071
+ 20
+22.03551307587106
+ 11
+7.287826374706071
+ 21
+21.36884640920439
+  0
+ARC
+  5
+31D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+7.623578407226375
+ 20
+21.37126510839138
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+31E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.621159708039499
+ 20
+21.03551307587106
+ 11
+7.843381930261671
+ 21
+21.03551307587106
+  0
+ARC
+  5
+31F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+7.840963231074682
+ 20
+21.37126510839138
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+320
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.176715263595099
+ 20
+21.36884640920439
+ 11
+8.176715263595099
+ 21
+22.03551307587106
+  0
+ARC
+  5
+321
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+7.840963231074682
+ 20
+22.03309437668407
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+322
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.843381930261671
+ 20
+22.36884640920439
+ 11
+7.621159708039499
+ 21
+22.36884640920439
+  0
+ARC
+  5
+323
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+7.623578407226375
+ 20
+22.03309437668407
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+324
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.843381930261671
+ 20
+21.03551307587106
+ 11
+8.843381930261671
+ 21
+21.14662418698217
+  0
+LINE
+  5
+325
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0.6482311317689096
+ 20
+18.10785291837649
+ 11
+1.981564465102167
+ 21
+18.10785291837649
+  0
+LINE
+  5
+326
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.314897798435481
+ 20
+18.10785291837649
+ 11
+1.314897798435481
+ 21
+16.10785291837649
+  0
+LINE
+  5
+327
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2.64823113176891
+ 20
+16.10785291837649
+ 11
+2.64823113176891
+ 21
+16.2189640294876
+  0
+LINE
+  5
+328
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.314897798435481
+ 20
+17.44118625170983
+ 11
+3.314897798435481
+ 21
+16.10785291837649
+  0
+LINE
+  5
+329
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.314897798435481
+ 20
+16.77451958504315
+ 11
+4.203786687324509
+ 21
+17.44118625170983
+  0
+LINE
+  5
+32A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.61045335399109
+ 20
+16.99674180726538
+ 11
+4.203786687324509
+ 21
+16.10785291837649
+  0
+ARC
+  5
+32B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5.314897798435481
+ 20
+16.55229736282094
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+180
+ 51
+0
+  0
+LINE
+  5
+32C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.870453353991081
+ 20
+16.55229736282094
+ 11
+4.870453353991081
+ 21
+16.99674180726538
+  0
+ARC
+  5
+32D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5.314897798435481
+ 20
+16.99674180726538
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+32E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.759342242879995
+ 20
+16.99674180726538
+ 11
+5.759342242879995
+ 21
+16.55229736282094
+  0
+LINE
+  5
+32F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.426008909546567
+ 20
+17.44118625170983
+ 11
+6.426008909546567
+ 21
+16.10785291837649
+  0
+LINE
+  5
+330
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.314897798435481
+ 20
+17.44118625170983
+ 11
+7.314897798435481
+ 21
+16.10785291837649
+  0
+LINE
+  5
+331
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.426008909546567
+ 20
+16.77451958504315
+ 11
+7.314897798435481
+ 21
+16.77451958504315
+  0
+LINE
+  5
+332
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.64823113176891
+ 20
+16.10785291837649
+ 11
+8.64823113176891
+ 21
+17.44118625170983
+  0
+LINE
+  5
+333
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.981564465102167
+ 20
+16.10785291837649
+ 11
+7.981564465102167
+ 21
+17.44118625170983
+  0
+LINE
+  5
+334
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.981564465102167
+ 20
+17.44118625170983
+ 11
+8.981564465102167
+ 21
+17.44118625170983
+  0
+ARC
+  5
+335
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+8.979145765915177
+ 20
+17.1054342191895
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.412741680611836
+ 51
+89.58725831938813
+  0
+LINE
+  5
+336
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9.314897798435481
+ 20
+17.10785291837649
+ 11
+9.314897798435481
+ 21
+16.10785291837649
+  0
+LINE
+  5
+337
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9.981564465102167
+ 20
+15.44118625170983
+ 11
+9.981564465102167
+ 21
+17.44118625170983
+  0
+LINE
+  5
+338
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9.981564465102167
+ 20
+17.44118625170983
+ 11
+10.53712002065777
+ 21
+17.44118625170983
+  0
+ARC
+  5
+339
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+10.53470132147078
+ 20
+17.1054342191895
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+33A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+10.87045335399108
+ 20
+17.10785291837649
+ 11
+10.87045335399108
+ 21
+16.44118625170983
+  0
+ARC
+  5
+33B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+10.53470132147078
+ 20
+16.44360495089682
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+33C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+10.53712002065777
+ 20
+16.10785291837649
+ 11
+9.981564465102167
+ 21
+16.10785291837649
+  0
+LINE
+  5
+33D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.53712002065777
+ 20
+16.10785291837649
+ 11
+11.53712002065777
+ 21
+16.2189640294876
+  0
+LINE
+  5
+33E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.103829228497716
+ 20
+8.068370581619847
+ 11
+1.103829228497716
+ 21
+6.068370581619847
+  0
+LINE
+  5
+33F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2.214940339608802
+ 20
+6.068370581619847
+ 11
+2.214940339608802
+ 21
+8.068370581619847
+  0
+LINE
+  5
+340
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.103829228497716
+ 20
+7.179481692730956
+ 11
+2.214940339608802
+ 21
+7.179481692730956
+  0
+LINE
+  5
+341
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2.881607006275487
+ 20
+6.068370581619847
+ 11
+2.881607006275487
+ 21
+6.179481692730956
+  0
+LINE
+  5
+342
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.548273672942116
+ 20
+7.401703914953186
+ 11
+3.548273672942116
+ 21
+6.068370581619847
+  0
+LINE
+  5
+343
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.548273672942116
+ 20
+6.735037248286517
+ 11
+4.437162561830974
+ 21
+7.401703914953186
+  0
+LINE
+  5
+344
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.843829228497668
+ 20
+6.957259470508736
+ 11
+4.437162561830974
+ 21
+6.068370581619847
+  0
+ARC
+  5
+345
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5.548273672942173
+ 20
+6.512815026064297
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+180
+ 51
+0
+  0
+LINE
+  5
+346
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.103829228497716
+ 20
+6.512815026064297
+ 11
+5.103829228497716
+ 21
+6.957259470508736
+  0
+ARC
+  5
+347
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5.548273672942173
+ 20
+6.957259470508736
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+348
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.992718117386573
+ 20
+6.957259470508736
+ 11
+5.992718117386573
+ 21
+6.512815026064297
+  0
+LINE
+  5
+349
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.659384784053316
+ 20
+7.401703914953186
+ 11
+6.659384784053316
+ 21
+6.068370581619847
+  0
+LINE
+  5
+34A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.548273672942173
+ 20
+7.401703914953186
+ 11
+7.548273672942173
+ 21
+6.068370581619847
+  0
+LINE
+  5
+34B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.659384784053316
+ 20
+6.735037248286517
+ 11
+7.548273672942173
+ 21
+6.735037248286517
+  0
+LINE
+  5
+34C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.881607006275487
+ 20
+6.068370581619847
+ 11
+8.881607006275487
+ 21
+7.401703914953186
+  0
+LINE
+  5
+34D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.214940339608802
+ 20
+6.068370581619847
+ 11
+8.214940339608802
+ 21
+7.401703914953186
+  0
+LINE
+  5
+34E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.214940339608802
+ 20
+7.401703914953186
+ 11
+9.214940339608802
+ 21
+7.401703914953186
+  0
+ARC
+  5
+34F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+9.212521640421812
+ 20
+7.065951882432856
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.412741680611836
+ 51
+89.58725831938813
+  0
+LINE
+  5
+350
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9.548273672942116
+ 20
+7.068370581619847
+ 11
+9.548273672942116
+ 21
+6.068370581619847
+  0
+LINE
+  5
+351
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+10.2149403396088
+ 20
+5.401703914953186
+ 11
+10.2149403396088
+ 21
+7.401703914953186
+  0
+LINE
+  5
+352
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+10.2149403396088
+ 20
+7.401703914953186
+ 11
+10.7704958951644
+ 21
+7.401703914953186
+  0
+ARC
+  5
+353
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+10.76807719597741
+ 20
+7.065951882432856
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+354
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.10382922849772
+ 20
+7.068370581619847
+ 11
+11.10382922849772
+ 21
+6.401703914953186
+  0
+ARC
+  5
+355
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+10.76807719597741
+ 20
+6.404122614140176
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+356
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+10.7704958951644
+ 20
+6.068370581619847
+ 11
+10.2149403396088
+ 21
+6.068370581619847
+  0
+LINE
+  5
+357
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.7704958951644
+ 20
+6.068370581619847
+ 11
+11.7704958951644
+ 21
+6.179481692730956
+  0
+ARC
+  5
+358
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.339397203565397
+ 20
+1.573642076121861
+ 40
+0.44954215857986
+100
+AcDbArc
+ 50
+207.1437365338053
+ 51
+269.7127223626402
+  0
+LINE
+  5
+359
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.337143235311373
+ 20
+1.124105568185353
+ 11
+1.559365457533715
+ 21
+1.124105568185353
+  0
+ARC
+  5
+35A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.556140525284263
+ 20
+1.57177494487912
+ 40
+0.4476809924682961
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+35B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2.003809901978116
+ 20
+1.568550012629798
+ 11
+2.003809901978116
+ 21
+1.790772234852021
+  0
+ARC
+  5
+35C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.556140525284263
+ 20
+1.787547302602697
+ 40
+0.4476809924682961
+100
+AcDbArc
+ 50
+0.4127416806118446
+ 51
+89.58725831938816
+  0
+ARC
+  5
+35D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.559365457533715
+ 20
+2.679661123740908
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+270
+ 51
+90
+  0
+LINE
+  5
+35E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.559365457533715
+ 20
+3.124105568185353
+ 11
+1.337143235311373
+ 21
+3.124105568185353
+  0
+ARC
+  5
+35F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.338921013089191
+ 20
+2.685216679296463
+ 40
+0.4388924894367077
+100
+AcDbArc
+ 50
+90.2320829008752
+ 51
+135.471812796956
+  0
+LINE
+  5
+360
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1.559365457533715
+ 20
+2.235216679296464
+ 11
+1.337143235311373
+ 21
+2.235216679296464
+  0
+ARC
+  5
+361
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+3.895117490053963
+ 20
+1.459857600705678
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193882
+  0
+LINE
+  5
+362
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.559365457533715
+ 20
+1.457438901518686
+ 11
+3.559365457533715
+ 21
+2.457438901518686
+  0
+LINE
+  5
+363
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.559365457533715
+ 20
+2.457438901518686
+ 11
+3.003809901978116
+ 21
+2.457438901518686
+  0
+ARC
+  5
+364
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+3.006228601165105
+ 20
+2.121686868998361
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+365
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2.670476568644801
+ 20
+2.124105568185353
+ 11
+2.670476568644801
+ 21
+1.457438901518686
+  0
+ARC
+  5
+366
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+3.006228601165105
+ 20
+1.459857600705678
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+367
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.003809901978116
+ 20
+1.124105568185353
+ 11
+3.226032124200287
+ 21
+1.124105568185353
+  0
+ARC
+  5
+368
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+3.223613425013298
+ 20
+1.459857600705678
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+369
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.226032124200401
+ 20
+1.124105568185353
+ 11
+5.226032124200401
+ 21
+2.457438901518686
+  0
+LINE
+  5
+36A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.559365457533715
+ 20
+1.124105568185353
+ 11
+4.559365457533715
+ 21
+2.457438901518686
+  0
+LINE
+  5
+36B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.559365457533715
+ 20
+2.457438901518686
+ 11
+5.559365457533715
+ 21
+2.457438901518686
+  0
+ARC
+  5
+36C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5.556946758346669
+ 20
+2.121686868998361
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.412741680611836
+ 51
+89.58725831938813
+  0
+LINE
+  5
+36D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.892698790866973
+ 20
+2.124105568185353
+ 11
+5.892698790866973
+ 21
+1.124105568185353
+  0
+LINE
+  5
+36E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.623809901978063
+ 20
+2.324105568185353
+ 11
+6.981587679755876
+ 21
+2.801883345963131
+  0
+ARC
+  5
+36F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+6.782135298803496
+ 20
+2.901109095522215
+ 40
+0.2227711867435632
+100
+AcDbArc
+ 50
+333.5500717202343
+ 51
+179.8008657559842
+  0
+LINE
+  5
+370
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.559365457533715
+ 20
+2.901883345963131
+ 11
+6.559365457533715
+ 21
+2.124105568185353
+  0
+LINE
+  5
+371
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.559365457533715
+ 20
+2.124105568185353
+ 11
+6.559365457533715
+ 21
+1.457438901518686
+  0
+ARC
+  5
+372
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+6.895117490053963
+ 20
+1.459857600705678
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+373
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.892698790866973
+ 20
+1.124105568185353
+ 11
+7.114921013089202
+ 21
+1.124105568185353
+  0
+ARC
+  5
+374
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+7.112502313902212
+ 20
+1.459857600705678
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+375
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.448254346422573
+ 20
+1.457438901518686
+ 11
+7.448254346422573
+ 21
+2.124105568185353
+  0
+ARC
+  5
+376
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+7.112502313902212
+ 20
+2.121686868998361
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+377
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.114921013089202
+ 20
+2.457438901518686
+ 11
+6.892698790866973
+ 21
+2.457438901518686
+  0
+ARC
+  5
+378
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+6.895117490053963
+ 20
+2.121686868998361
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+379
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8.114921013089202
+ 20
+1.124105568185353
+ 11
+8.114921013089202
+ 21
+1.235216679296464
+  0
+LINE
+  5
+37A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+138.1407872409465
+ 20
+36.13237611936638
+ 11
+138.9185650187243
+ 21
+38.13237611936638
+  0
+LINE
+  5
+37B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+138.9185650187243
+ 20
+38.13237611936638
+ 11
+139.2518983520576
+ 21
+38.13237611936638
+  0
+LINE
+  5
+37C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+139.2518983520576
+ 20
+38.13237611936638
+ 11
+139.2518983520576
+ 21
+36.13237611936638
+  0
+LINE
+  5
+37D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+139.9185650187243
+ 20
+36.13237611936638
+ 11
+139.9185650187243
+ 21
+37.46570945269972
+  0
+LINE
+  5
+37E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+139.9185650187243
+ 20
+38.02126500825527
+ 11
+139.9185650187243
+ 21
+38.13237611936638
+  0
+LINE
+  5
+37F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+141.2518983520576
+ 20
+36.13237611936638
+ 11
+141.2518983520576
+ 21
+37.46570945269972
+  0
+LINE
+  5
+380
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+140.585231685391
+ 20
+36.13237611936638
+ 11
+140.585231685391
+ 21
+37.46570945269972
+  0
+LINE
+  5
+381
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+140.585231685391
+ 20
+37.46570945269972
+ 11
+141.585231685391
+ 21
+37.46570945269972
+  0
+ARC
+  5
+382
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+141.5828129862039
+ 20
+37.12995742017939
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.412741680611836
+ 51
+89.58725831938813
+  0
+LINE
+  5
+383
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+141.9185650187243
+ 20
+37.13237611936638
+ 11
+141.9185650187243
+ 21
+36.13237611936638
+  0
+LINE
+  5
+384
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+143.4741205742799
+ 20
+36.13237611936638
+ 11
+142.9185650187243
+ 21
+36.13237611936638
+  0
+ARC
+  5
+385
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+142.9209837179113
+ 20
+36.46812815188671
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+386
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+142.585231685391
+ 20
+36.46570945269972
+ 11
+142.585231685391
+ 21
+37.02126500825527
+  0
+ARC
+  5
+387
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+143.0296761298354
+ 20
+37.02126500825527
+ 40
+0.4444444444444444
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+388
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+143.4741205742799
+ 20
+37.02126500825527
+ 11
+143.4741205742799
+ 21
+36.79904278603305
+  0
+LINE
+  5
+389
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+143.4741205742799
+ 20
+36.79904278603305
+ 11
+142.585231685391
+ 21
+36.79904278603305
+  0
+LINE
+  5
+38A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+144.1407872409465
+ 20
+35.46570945269972
+ 11
+144.1407872409465
+ 21
+37.46570945269972
+  0
+LINE
+  5
+38B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+144.1407872409465
+ 20
+37.46570945269972
+ 11
+144.6963427965021
+ 21
+37.46570945269972
+  0
+ARC
+  5
+38C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+144.6939240973151
+ 20
+37.12995742017939
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+38D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+145.0296761298354
+ 20
+37.13237611936638
+ 11
+145.0296761298354
+ 21
+36.46570945269972
+  0
+ARC
+  5
+38E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+144.6939240973151
+ 20
+36.46812815188671
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+38F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+144.6963427965021
+ 20
+36.13237611936638
+ 11
+144.1407872409465
+ 21
+36.13237611936638
+  0
+ARC
+  5
+390
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+146.9209837179113
+ 20
+36.46812815188671
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193882
+  0
+LINE
+  5
+391
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+146.585231685391
+ 20
+36.46570945269972
+ 11
+146.585231685391
+ 21
+37.46570945269972
+  0
+LINE
+  5
+392
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+146.585231685391
+ 20
+37.46570945269972
+ 11
+146.0296761298354
+ 21
+37.46570945269972
+  0
+ARC
+  5
+393
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+146.0320948290224
+ 20
+37.12995742017939
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+394
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+145.6963427965021
+ 20
+37.13237611936638
+ 11
+145.6963427965021
+ 21
+36.46570945269972
+  0
+ARC
+  5
+395
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+146.0320948290224
+ 20
+36.46812815188671
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+396
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+146.0296761298354
+ 20
+36.13237611936638
+ 11
+146.2518983520576
+ 21
+36.13237611936638
+  0
+ARC
+  5
+397
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+146.2494796528707
+ 20
+36.46812815188671
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+398
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+155.3671285354947
+ 20
+36.07021050756806
+ 11
+155.3671285354947
+ 21
+38.07021050756806
+  0
+LINE
+  5
+399
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+155.3671285354947
+ 20
+38.07021050756806
+ 11
+156.0337952021613
+ 21
+36.95909939645695
+  0
+LINE
+  5
+39A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+156.0337952021613
+ 20
+36.95909939645695
+ 11
+156.7004618688281
+ 21
+38.07021050756806
+  0
+LINE
+  5
+39B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+156.7004618688281
+ 20
+38.07021050756806
+ 11
+156.7004618688281
+ 21
+36.07021050756806
+  0
+ARC
+  5
+39C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+158.5917694569039
+ 20
+36.40596254008839
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193882
+  0
+LINE
+  5
+39D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+158.2560174243836
+ 20
+36.4035438409014
+ 11
+158.2560174243836
+ 21
+37.4035438409014
+  0
+LINE
+  5
+39E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+158.2560174243836
+ 20
+37.4035438409014
+ 11
+157.7004618688281
+ 21
+37.4035438409014
+  0
+ARC
+  5
+39F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+157.702880568015
+ 20
+37.06779180838107
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+3A0
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+157.3671285354947
+ 20
+37.07021050756806
+ 11
+157.3671285354947
+ 21
+36.4035438409014
+  0
+ARC
+  5
+3A1
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+157.702880568015
+ 20
+36.40596254008839
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+3A2
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+157.7004618688281
+ 20
+36.07021050756806
+ 11
+157.9226840910503
+ 21
+36.07021050756806
+  0
+ARC
+  5
+3A3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+157.9202653918633
+ 20
+36.40596254008839
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+3A4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+159.9226840910501
+ 20
+37.4035438409014
+ 11
+159.5893507577169
+ 21
+37.4035438409014
+  0
+ARC
+  5
+3A5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+159.5917694569038
+ 20
+37.06779180838107
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+3A6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+159.2560174243835
+ 20
+37.07021050756806
+ 11
+159.2560174243835
+ 21
+36.4035438409014
+  0
+ARC
+  5
+3A7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+159.5917694569038
+ 20
+36.40596254008839
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+3A8
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+159.5893507577169
+ 20
+36.07021050756806
+ 11
+159.9226840910501
+ 21
+36.07021050756806
+  0
+ARC
+  5
+3A9
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+161.8139916791261
+ 20
+36.40596254008839
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193882
+  0
+LINE
+  5
+3AA
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+161.4782396466058
+ 20
+36.4035438409014
+ 11
+161.4782396466058
+ 21
+37.4035438409014
+  0
+LINE
+  5
+3AB
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+161.4782396466058
+ 20
+37.4035438409014
+ 11
+160.9226840910503
+ 21
+37.4035438409014
+  0
+ARC
+  5
+3AC
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+160.9251027902372
+ 20
+37.06779180838107
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+3AD
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+160.5893507577169
+ 20
+37.07021050756806
+ 11
+160.5893507577169
+ 21
+36.4035438409014
+  0
+ARC
+  5
+3AE
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+160.9251027902372
+ 20
+36.40596254008839
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+3AF
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+160.9226840910503
+ 20
+36.07021050756806
+ 11
+161.1449063132724
+ 21
+36.07021050756806
+  0
+ARC
+  5
+3B0
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+161.1424876140855
+ 20
+36.40596254008839
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+3B1
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+170.3902705717364
+ 20
+36.03710136509551
+ 11
+170.3902705717364
+ 21
+38.03710136509551
+  0
+LINE
+  5
+3B2
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+170.3902705717364
+ 20
+38.03710136509551
+ 11
+171.056937238403
+ 21
+36.92599025398439
+  0
+LINE
+  5
+3B3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+171.056937238403
+ 20
+36.92599025398439
+ 11
+171.7236039050698
+ 21
+38.03710136509551
+  0
+LINE
+  5
+3B4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+171.7236039050698
+ 20
+38.03710136509551
+ 11
+171.7236039050698
+ 21
+36.03710136509551
+  0
+ARC
+  5
+3B5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+173.6149114931456
+ 20
+36.37285339761583
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193882
+  0
+LINE
+  5
+3B6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+173.2791594606253
+ 20
+36.37043469842884
+ 11
+173.2791594606253
+ 21
+37.37043469842884
+  0
+LINE
+  5
+3B7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+173.2791594606253
+ 20
+37.37043469842884
+ 11
+172.7236039050698
+ 21
+37.37043469842884
+  0
+ARC
+  5
+3B8
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+172.7260226042567
+ 20
+37.03468266590852
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+3B9
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+172.3902705717364
+ 20
+37.03710136509551
+ 11
+172.3902705717364
+ 21
+36.37043469842884
+  0
+ARC
+  5
+3BA
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+172.7260226042567
+ 20
+36.37285339761583
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+3BB
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+172.7236039050698
+ 20
+36.03710136509551
+ 11
+172.9458261272919
+ 21
+36.03710136509551
+  0
+ARC
+  5
+3BC
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+172.943407428105
+ 20
+36.37285339761583
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+3BD
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+174.9458261272919
+ 20
+37.37043469842884
+ 11
+174.6124927939587
+ 21
+37.37043469842884
+  0
+ARC
+  5
+3BE
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+174.6149114931456
+ 20
+37.03468266590852
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+3BF
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+174.2791594606253
+ 20
+37.03710136509551
+ 11
+174.2791594606253
+ 21
+36.37043469842884
+  0
+ARC
+  5
+3C0
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+174.6149114931456
+ 20
+36.37285339761583
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+3C1
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+174.6124927939587
+ 20
+36.03710136509551
+ 11
+174.9458261272919
+ 21
+36.03710136509551
+  0
+LINE
+  5
+3C2
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+175.6124927939586
+ 20
+37.37043469842884
+ 11
+175.6124927939586
+ 21
+36.37043469842884
+  0
+ARC
+  5
+3C3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+175.9482448264789
+ 20
+36.37285339761583
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+3C4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+175.9458261272919
+ 20
+36.03710136509551
+ 11
+176.9458261272919
+ 21
+36.03710136509551
+  0
+LINE
+  5
+3C5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+176.9458261272919
+ 20
+36.03710136509551
+ 11
+176.9458261272919
+ 21
+37.37043469842884
+  0
+LINE
+  5
+3C6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+176.2791594606252
+ 20
+37.37043469842884
+ 11
+176.2791594606252
+ 21
+36.03710136509551
+  0
+LINE
+  5
+3C7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+178.2791594606252
+ 20
+36.03710136509551
+ 11
+178.2791594606252
+ 21
+37.37043469842884
+  0
+LINE
+  5
+3C8
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+177.6124927939586
+ 20
+36.03710136509551
+ 11
+177.6124927939586
+ 21
+37.37043469842884
+  0
+LINE
+  5
+3C9
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+177.6124927939586
+ 20
+37.37043469842884
+ 11
+178.6124927939586
+ 21
+37.37043469842884
+  0
+ARC
+  5
+3CA
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+178.6100740947715
+ 20
+37.03468266590852
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.412741680611836
+ 51
+89.58725831938813
+  0
+LINE
+  5
+3CB
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+178.9458261272919
+ 20
+37.03710136509551
+ 11
+178.9458261272919
+ 21
+36.03710136509551
+  0
+ARC
+  5
+3CC
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+180.8371337153678
+ 20
+36.37285339761583
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193882
+  0
+LINE
+  5
+3CD
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+180.5013816828475
+ 20
+36.37043469842884
+ 11
+180.5013816828475
+ 21
+37.37043469842884
+  0
+LINE
+  5
+3CE
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+180.5013816828475
+ 20
+37.37043469842884
+ 11
+179.9458261272919
+ 21
+37.37043469842884
+  0
+ARC
+  5
+3CF
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+179.9482448264789
+ 20
+37.03468266590852
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+3D0
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+179.6124927939586
+ 20
+37.03710136509551
+ 11
+179.6124927939586
+ 21
+36.37043469842884
+  0
+ARC
+  5
+3D1
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+179.9482448264789
+ 20
+36.37285339761583
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+3D2
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+179.9458261272919
+ 20
+36.03710136509551
+ 11
+180.1680483495141
+ 21
+36.03710136509551
+  0
+ARC
+  5
+3D3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+180.1656296503272
+ 20
+36.37285339761583
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+ARC
+  5
+3D4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+181.8371337153678
+ 20
+37.03468266590852
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+3D5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+181.5013816828475
+ 20
+37.03710136509551
+ 11
+181.5013816828475
+ 21
+36.37043469842884
+  0
+ARC
+  5
+3D6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+181.8371337153678
+ 20
+36.37285339761583
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+3D7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+181.8347150161808
+ 20
+36.03710136509551
+ 11
+182.056937238403
+ 21
+36.03710136509551
+  0
+ARC
+  5
+3D8
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+182.0545185392161
+ 20
+36.37285339761583
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+3D9
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+182.3902705717364
+ 20
+36.37043469842884
+ 11
+182.3902705717364
+ 21
+37.03710136509551
+  0
+ARC
+  5
+3DA
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+182.0545185392161
+ 20
+37.03468266590852
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+3DB
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+182.056937238403
+ 20
+37.37043469842884
+ 11
+181.8347150161808
+ 21
+37.37043469842884
+  0
+LINE
+  5
+3DC
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+182.3902705717364
+ 20
+38.03710136509551
+ 11
+181.5013816828475
+ 21
+38.03710136509551
+  0
+LINE
+  5
+3DD
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+181.5013816828475
+ 20
+38.03710136509551
+ 11
+182.2880483495141
+ 21
+37.2771013650955
+  0
+LINE
+  5
+3DE
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+140.2898535605814
+ 20
+16.63838393811544
+ 11
+141.2542980050259
+ 21
+16.63838393811544
+  0
+LINE
+  5
+3DF
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+140.105409116137
+ 20
+16.08282838255989
+ 11
+140.7720757828036
+ 21
+18.08282838255989
+  0
+LINE
+  5
+3E0
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+140.7720757828036
+ 20
+18.08282838255989
+ 11
+141.4387424494703
+ 21
+16.08282838255989
+  0
+LINE
+  5
+3E1
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+142.105409116137
+ 20
+15.41616171589322
+ 11
+142.105409116137
+ 21
+17.41616171589322
+  0
+LINE
+  5
+3E2
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+142.105409116137
+ 20
+17.41616171589322
+ 11
+142.6609646716925
+ 21
+17.41616171589322
+  0
+ARC
+  5
+3E3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+142.6585459725056
+ 20
+17.08040968337288
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+3E4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+142.9942980050259
+ 20
+17.08282838255989
+ 11
+142.9942980050259
+ 21
+16.41616171589322
+  0
+ARC
+  5
+3E5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+142.6585459725056
+ 20
+16.41858041508021
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+3E6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+142.6609646716925
+ 20
+16.08282838255989
+ 11
+142.105409116137
+ 21
+16.08282838255989
+  0
+LINE
+  5
+3E7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+143.6609646716925
+ 20
+17.41616171589322
+ 11
+143.6609646716925
+ 21
+16.08282838255989
+  0
+LINE
+  5
+3E8
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+143.6609646716925
+ 20
+16.74949504922655
+ 11
+144.5498535605814
+ 21
+17.41616171589322
+  0
+LINE
+  5
+3E9
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+143.9565202272481
+ 20
+16.97171727144877
+ 11
+144.5498535605814
+ 21
+16.08282838255989
+  0
+LINE
+  5
+3EA
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+145.2165202272481
+ 20
+16.08282838255989
+ 11
+145.2165202272481
+ 21
+16.193939493671
+  0
+LINE
+  5
+3EB
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+163.018578396904
+ 20
+16.75922567833219
+ 11
+163.9830228413485
+ 21
+16.75922567833219
+  0
+LINE
+  5
+3EC
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+162.8341339524596
+ 20
+16.20367012277663
+ 11
+163.5008006191262
+ 21
+18.20367012277663
+  0
+LINE
+  5
+3ED
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+163.5008006191262
+ 20
+18.20367012277663
+ 11
+164.167467285793
+ 21
+16.20367012277663
+  0
+LINE
+  5
+3EE
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+164.8341339524596
+ 20
+15.53700345610996
+ 11
+164.8341339524596
+ 21
+17.53700345610996
+  0
+LINE
+  5
+3EF
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+164.8341339524596
+ 20
+17.53700345610996
+ 11
+165.3896895080151
+ 21
+17.53700345610996
+  0
+ARC
+  5
+3F0
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+165.3872708088282
+ 20
+17.20125142358964
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+3F1
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+165.7230228413485
+ 20
+17.20367012277663
+ 11
+165.7230228413485
+ 21
+16.53700345610996
+  0
+ARC
+  5
+3F2
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+165.3872708088282
+ 20
+16.53942215529695
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+3F3
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+165.3896895080151
+ 20
+16.20367012277663
+ 11
+164.8341339524596
+ 21
+16.20367012277663
+  0
+LINE
+  5
+3F4
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+166.3896895080151
+ 20
+17.53700345610996
+ 11
+166.3896895080151
+ 21
+16.20367012277663
+  0
+LINE
+  5
+3F5
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+166.3896895080151
+ 20
+16.8703367894433
+ 11
+167.278578396904
+ 21
+17.53700345610996
+  0
+LINE
+  5
+3F6
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+166.6852450635707
+ 20
+17.09255901166552
+ 11
+167.278578396904
+ 21
+16.20367012277663
+  0
+LINE
+  5
+3F7
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+167.9452450635707
+ 20
+17.53700345610996
+ 11
+167.9452450635707
+ 21
+16.53700345610996
+  0
+ARC
+  5
+3F8
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+168.280997096091
+ 20
+16.53942215529695
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+3F9
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+168.278578396904
+ 20
+16.20367012277663
+ 11
+168.8341339524596
+ 21
+16.20367012277663
+  0
+LINE
+  5
+3FA
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+168.8341339524596
+ 20
+16.20367012277663
+ 11
+168.8341339524596
+ 21
+17.53700345610996
+  0
+LINE
+  5
+3FB
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+168.0563561746818
+ 20
+15.53700345610996
+ 11
+168.5008006191262
+ 21
+15.53700345610996
+  0
+ARC
+  5
+3FC
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+168.4983819199393
+ 20
+15.87275548863029
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+3FD
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+168.8341339524596
+ 20
+15.8703367894433
+ 11
+168.8341339524596
+ 21
+16.20367012277663
+  0
+LINE
+  5
+3FE
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+169.5008006191262
+ 20
+17.53700345610996
+ 11
+169.5008006191262
+ 21
+16.53700345610996
+  0
+ARC
+  5
+3FF
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+169.8365526516465
+ 20
+16.53942215529695
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+400
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+169.8341339524596
+ 20
+16.20367012277663
+ 11
+170.8341339524596
+ 21
+16.20367012277663
+  0
+LINE
+  5
+401
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+170.8341339524596
+ 20
+16.20367012277663
+ 11
+170.8341339524596
+ 21
+17.53700345610996
+  0
+LINE
+  5
+402
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+170.1674672857928
+ 20
+17.53700345610996
+ 11
+170.1674672857928
+ 21
+16.20367012277663
+  0
+LINE
+  5
+403
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+171.5008006191262
+ 20
+16.20367012277663
+ 11
+171.5008006191262
+ 21
+17.53700345610996
+  0
+LINE
+  5
+404
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+171.5008006191262
+ 20
+18.09255901166552
+ 11
+171.5008006191262
+ 21
+18.20367012277663
+  0
+LINE
+  5
+405
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+172.2319117302373
+ 20
+17.40367012277663
+ 11
+172.5896895080151
+ 21
+17.88144790055441
+  0
+ARC
+  5
+406
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+172.3902371270627
+ 20
+17.98067365011349
+ 40
+0.2227711867435632
+100
+AcDbArc
+ 50
+333.5500717202343
+ 51
+179.8008657559842
+  0
+LINE
+  5
+407
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+172.1674672857928
+ 20
+17.98144790055441
+ 11
+172.1674672857928
+ 21
+17.20367012277663
+  0
+LINE
+  5
+408
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+172.1674672857928
+ 20
+17.20367012277663
+ 11
+172.1674672857928
+ 21
+16.53700345610996
+  0
+ARC
+  5
+409
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+172.5032193183131
+ 20
+16.53942215529695
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+180.4127416806118
+ 51
+269.5872583193881
+  0
+LINE
+  5
+40A
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+172.5008006191262
+ 20
+16.20367012277663
+ 11
+172.7230228413484
+ 21
+16.20367012277663
+  0
+ARC
+  5
+40B
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+172.7206041421614
+ 20
+16.53942215529695
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+270.4127416806118
+ 51
+359.5872583193882
+  0
+LINE
+  5
+40C
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+173.0563561746818
+ 20
+16.53700345610996
+ 11
+173.0563561746818
+ 21
+17.20367012277663
+  0
+ARC
+  5
+40D
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+172.7206041421614
+ 20
+17.20125142358964
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+0.4127416806118361
+ 51
+89.58725831938816
+  0
+LINE
+  5
+40E
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+172.7230228413484
+ 20
+17.53700345610996
+ 11
+172.5008006191262
+ 21
+17.53700345610996
+  0
+ARC
+  5
+40F
+100
+AcDbEntity
+  8
+Написи на штампі
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+172.5032193183131
+ 20
+17.20125142358964
+ 40
+0.3357607443512221
+100
+AcDbArc
+ 50
+90.41274168061184
+ 51
+179.5872583193882
+  0
+LINE
+  5
+410
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+134.994201526395
+ 20
+0.05954786193464479
+ 11
+134.994201526395
+ 21
+40.05954786193465
+  0
+ENDBLK
+  5
+5C
+330
+5A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+LINE
+  5
+411
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0
+ 20
+0
+ 11
+594
+ 21
+0
+  0
+LINE
+  5
+412
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+594
+ 20
+0
+ 11
+594
+ 21
+420
+  0
+LINE
+  5
+413
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+594
+ 20
+420
+ 11
+0
+ 21
+420
+  0
+LINE
+  5
+414
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0
+ 20
+420
+ 11
+0
+ 21
+0
+  0
+INSERT
+  5
+415
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+left_field001
+ 10
+20
+ 20
+5
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+416
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+high_field001
+ 10
+90
+ 20
+415
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+417
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+left_field002
+ 10
+20
+ 20
+5
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+LINE
+  5
+418
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+20
+ 20
+5
+ 11
+589
+ 21
+5
+  0
+LINE
+  5
+419
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+589
+ 20
+5
+ 11
+589
+ 21
+415
+  0
+LINE
+  5
+41A
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+589
+ 20
+415
+ 11
+20
+ 21
+415
+  0
+LINE
+  5
+41B
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+20
+ 20
+415
+ 11
+20
+ 21
+5
+  0
+LINE
+  5
+41C
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+90
+ 20
+415
  11
 90
  21
-822
+401
+  0
+LINE
+  5
+41D
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   70
+100
+AcDbLine
+ 10
+90
+ 20
+401
+ 11
+20
+ 21
+401
+  0
+INSERT
+  5
+41E
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+штамп-0
+ 10
+403.5750699534323
+ 20
+4.873715297450877
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+0
+ 45
+0
   0
 ENDSEC
   0
@@ -15419,7 +27211,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-24A
+41F
 100
 AcDbPlotSettings
   6
